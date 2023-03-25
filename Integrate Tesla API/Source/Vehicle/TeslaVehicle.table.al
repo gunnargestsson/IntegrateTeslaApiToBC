@@ -135,6 +135,18 @@ table 60201 "Tesla Vehicle"
         exit(StrSubStNo(UrlTok, id_s));
     end;
 
+    local procedure GetHonkHornUrl() Url: Text
+    var
+        IsHandled: Boolean;
+        UrlTok: Label 'https://owner-api.teslamotors.com/api/1/vehicles/%1/command/honk_horn', Locked = true;
+    begin
+        OnBeforeGetHonkHornUrl(Rec, Url, IsHandled);
+        if IsHandled then
+            exit;
+
+        exit(StrSubStNo(UrlTok, id_s));
+    end;
+
     internal procedure GetVehicles(Force: Boolean)
     var
         SessionMemory: Codeunit "Tesla API Memory";
@@ -170,6 +182,24 @@ table 60201 "Tesla Vehicle"
         ApiHelper.ReadJsonArray(ResponseJson, 'response', Rec);
     end;
 
+    [NonDebuggable]
+    internal procedure HonkHorn()
+    var
+        Setup: Record "Tesla API Setup";
+        CommandResult: Record "Tesla Command Result";
+        ApiHelper: Codeunit "Tesla API Request Helper";
+        Request: HttpRequestMessage;
+        Response: HttpResponseMessage;
+        ResponseJson: JsonToken;
+    begin
+        Setup.Get();
+        ApiHelper.SetRequest(GetHonkHornUrl(), 'Post', Setup.GetAuthorization(), Request);
+        ApiHelper.SendRequest(Request, Response, 30000);
+        ResponseJson := ApiHelper.ReadAsJson(Response);
+        ApiHelper.ReadJsonArray(ResponseJson, 'response', CommandResult);
+        CommandResult.ShowResult();
+    end;
+
     [IntegrationEvent(false, false)]
     local procedure OnBeforeGetDownloadUrl(var Url: Text; var IsHandled: Boolean)
     begin
@@ -187,6 +217,11 @@ table 60201 "Tesla Vehicle"
 
     [IntegrationEvent(false, false)]
     local procedure OnBeforeGetWakeUpUrl(var Rec: Record "Tesla Vehicle"; var Url: Text; var IsHandled: Boolean)
+    begin
+    end;
+
+    [IntegrationEvent(false, false)]
+    local procedure OnBeforeGetHonkHornUrl(var Rec: Record "Tesla Vehicle"; var Url: Text; var IsHandled: Boolean)
     begin
     end;
 }

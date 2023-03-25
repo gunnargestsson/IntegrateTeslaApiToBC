@@ -33,6 +33,12 @@ table 60202 "Tesla API Flow Control"
             Caption = 'Row Count';
             DataClassification = SystemMetadata;
         }
+        field(6; "Page Number"; Integer)
+        {
+            Caption = 'Page Number';
+            DataClassification = SystemMetadata;
+            InitValue = 1;
+        }
     }
     keys
     {
@@ -84,13 +90,21 @@ table 60202 "Tesla API Flow Control"
 
     internal procedure ReadFlowData(var ResponseJson: JsonToken)
     var
+        JValue: JsonToken;
         IsHandled: Boolean;
     begin
         OnBeforeReadFlowData(Rec, ResponseJson, IsHandled);
         if IsHandled then
             exit;
 
-        "Has More Rows" := false;
+        if ResponseJson.AsObject().Get('hasMoreData', JValue) then
+            "Has More Rows" := JValue.AsValue().AsBoolean()
+        else
+            "Has More Rows" := false;
+        if ResponseJson.AsObject().Get('totalResults', JValue) then
+            "Row Count" += JValue.AsValue().AsInteger();
+
+        "Page Number" += 1;
 
         OnAfterReadFlowData(Rec, ResponseJson);
     end;

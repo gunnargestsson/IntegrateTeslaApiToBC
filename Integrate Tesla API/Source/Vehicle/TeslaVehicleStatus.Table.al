@@ -348,22 +348,37 @@ table 60203 "Tesla Vehicle Status"
 
     local procedure GetStatusUrl(VehicleId: Text) Url: Text
     var
+        IsHandled: Boolean;
         UrlTok: Label 'https://owner-api.teslamotors.com/api/1/vehicles/%1/data_request/vehicle_state', Locked = true;
     begin
+        OnBeforeGetStatusUrl(Rec, VehicleId, Url, IsHandled);
+        if IsHandled then
+            exit;
+
         exit(StrSubStNo(UrlTok, VehicleId));
     end;
 
     local procedure GetUnlockUrl(VehicleId: Text) Url: Text
     var
+        IsHandled: Boolean;
         UrlTok: Label 'https://owner-api.teslamotors.com/api/1/vehicles/%1/command/door_unlock', Locked = true;
     begin
+        OnBeforeGetUnlockUrl(Rec, VehicleId, Url, IsHandled);
+        if IsHandled then
+            exit;
+
         exit(StrSubStNo(UrlTok, VehicleId));
     end;
 
     local procedure GetLockUrl(VehicleId: Text) Url: Text
     var
+        IsHandled: Boolean;
         UrlTok: Label 'https://owner-api.teslamotors.com/api/1/vehicles/%1/command/door_lock', Locked = true;
     begin
+        OnBeforeGetLockUrl(Rec, VehicleId, Url, IsHandled);
+        if IsHandled then
+            exit;
+
         exit(StrSubStNo(UrlTok, VehicleId));
     end;
 
@@ -382,6 +397,7 @@ table 60203 "Tesla Vehicle Status"
         Rec.FindFirst();
     end;
 
+    [NonDebuggable]
     internal procedure UnlockDoors(Vehicle: Record "Tesla Vehicle")
     var
         Setup: Record "Tesla API Setup";
@@ -400,6 +416,7 @@ table 60203 "Tesla Vehicle Status"
         Modify(true);
     end;
 
+    [NonDebuggable]
     internal procedure LockDoors(Vehicle: Record "Tesla Vehicle")
     var
         Setup: Record "Tesla API Setup";
@@ -416,6 +433,21 @@ table 60203 "Tesla Vehicle Status"
         ApiHelper.ReadJsonArray(ResponseJson, 'response', CommandResult);
         CommandResult.ShowResult();
         Modify(true);
+    end;
+
+    [IntegrationEvent(false, false)]
+    local procedure OnBeforeGetStatusUrl(var Rec: Record "Tesla Vehicle Status"; VehicleId: Text; var Url: Text; var IsHandled: Boolean)
+    begin
+    end;
+
+    [IntegrationEvent(false, false)]
+    local procedure OnBeforeGetUnlockUrl(var Rec: Record "Tesla Vehicle Status"; VehicleId: Text; var Url: Text; var IsHandled: Boolean)
+    begin
+    end;
+
+    [IntegrationEvent(false, false)]
+    local procedure OnBeforeGetLockUrl(var Rec: Record "Tesla Vehicle Status"; VehicleId: Text; var Url: Text; var IsHandled: Boolean)
+    begin
     end;
 
 }

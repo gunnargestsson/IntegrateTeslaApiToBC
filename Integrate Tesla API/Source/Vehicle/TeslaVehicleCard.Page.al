@@ -175,6 +175,18 @@ page 60201 "Tesla Vehicle Card"
                     Rec.WakeUp();
                 end;
             }
+            action(HonkHorn)
+            {
+                ApplicationArea = All;
+                Caption = 'Honk Horn';
+                Image = Alerts;
+                ToolTip = 'Honk the horn.';
+
+                trigger OnAction()
+                begin
+                    Rec.HonkHorn();
+                end;
+            }
             action(RefreshStatus)
             {
                 ApplicationArea = All;
@@ -184,6 +196,36 @@ page 60201 "Tesla Vehicle Card"
                 trigger OnAction()
                 begin
                     Status.GetVehicleStatus(Rec, true);
+                end;
+            }
+            action(GetChargingInvoices)
+            {
+                ApplicationArea = All;
+                Caption = 'Get Charging Invoices';
+                Image = Download;
+                ToolTip = 'Get charging invoices for the vehicle.';
+                trigger OnAction()
+                var
+                    TeslaChargingInvoice: Record "Tesla Charging Invoice";
+                begin
+                    TeslaChargingInvoice.GetNewInvoices(Rec);
+                end;
+            }
+        }
+        area(Navigation)
+        {
+            action(ChargingInvoices)
+            {
+                ApplicationArea = All;
+                Caption = 'Charging Invoices';
+                Image = Download;
+                ToolTip = 'View charging invoices for the vehicle.';
+                trigger OnAction()
+                var
+                    TeslaChargingInvoice: Record "Tesla Charging Invoice";
+                begin
+                    TeslaChargingInvoice.SetRange("Vehicle VIN", Rec.vin);
+                    PAGE.Run(PAGE::"Tesla Charging Invoices", TeslaChargingInvoice);
                 end;
             }
         }

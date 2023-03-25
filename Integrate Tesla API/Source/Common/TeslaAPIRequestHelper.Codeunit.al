@@ -53,6 +53,8 @@ codeunit 60201 "Tesla API Request Helper"
     begin
         if not DataTypeMgt.GetRecordRef(RecVariant, TemplateRecRef) then exit;
         if not ResponseJson.AsObject().Get(ArrayName, JArray) then exit;
+        IF JArray.IsValue() then
+            if JArray.AsValue().IsNull() then exit;
         if JArray.IsObject() then begin
             ReadJsonObject(TemplateRecRef, JArray);
             exit;
@@ -100,8 +102,7 @@ codeunit 60201 "Tesla API Request Helper"
         ContentText: Text;
     begin
         ContentJson.WriteTo(ContentText);
-        Request.Content().WriteFrom(ContentText);
-        SetRequestContent(Request, 'Content-Type', ContentType);
+        SetRequestContent(Request, ContentType, ContentText);
     end;
 
     internal procedure SetRequestContent(var Request: HttpRequestMessage; ContentType: Text; var ContentStream: InStream)
@@ -177,6 +178,11 @@ codeunit 60201 "Tesla API Request Helper"
             RecRef.Insert(true);
     end;
 
+    internal procedure GetChildJsonToken(JToken: JsonToken; ChildName: Text) ChildJToken: JsonToken
+    begin
+        JToken.AsObject().Get(ChildName, ChildJToken);
+    end;
+
     local procedure ThrowErrorIfNotSuccess(var Response: HttpResponseMessage)
     var
         ErrorMessage: TextBuilder;
@@ -192,7 +198,6 @@ codeunit 60201 "Tesla API Request Helper"
         JText: Text;
         Value: Variant;
     begin
-        propertyPath := LowerCase(ConvertStr(ConvertStr(propertyPath, ' ', '_'), '.', '_'));
         if not JObject.SelectToken(propertyPath, JToken) then exit;
 
         case true of
