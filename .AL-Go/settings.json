@@ -1,6 +1,6 @@
 {
-  "country": "us",
-  "appFolders": [],
-  "testFolders": [],
+  "country": "is",
+  "appFolders": ["Integrate Tesla API"],
+  "testFolders": ["Integrate Tesla API.Test"],
   "bcptTestFolders": []
 }

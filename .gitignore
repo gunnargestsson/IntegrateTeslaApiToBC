@@ -18,3 +18,4 @@ rad.json
 .snapshots/
 cache_*
 ~$*
+Integrate Tesla API.Test/http/api.http
