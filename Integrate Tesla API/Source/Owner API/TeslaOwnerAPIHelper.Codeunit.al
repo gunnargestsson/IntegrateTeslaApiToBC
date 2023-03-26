@@ -19,11 +19,10 @@ codeunit 60200 "Tesla Owner API Helper"
     internal procedure DownloadWithFlowControl(Url: Text; QueryFilter: Text; RecVariant: Variant; HideDialog: Boolean)
     var
         TempFlowControl: Record "Tesla API Flow Control";
-        CollectionCount: Integer;
         ResponseJson: JsonToken;
     begin
         if not HideDialog then
-            TempFlowControl.OpenWindow(LoadingMsg, true);
+            TempFlowControl.OpenWindow(LoadingMsg, false);
         if not HideDialog then
             TempFlowControl.UpdateWindow(1, Format(0));
         TempFlowControl.Init();
@@ -31,10 +30,9 @@ codeunit 60200 "Tesla Owner API Helper"
             GetByUrl(Url, TempFlowControl."Row Offset", QueryFilter, ResponseJson);
             RequestMgt.ReadJsonToken(ResponseJson, 'response', RecVariant);
             TempFlowControl.ReadFlowData(ResponseJson);
-            CollectionCount += TempFlowControl."Row Count";
             TempFlowControl."Row Offset" := TempFlowControl."Row Offset" + TempFlowControl."Row Count";
             if not HideDialog then
-                TempFlowControl.UpdateWindow(1, CollectionCount);
+                TempFlowControl.UpdateWindow(1, TempFlowControl."Row Count");
         end;
     end;
 
