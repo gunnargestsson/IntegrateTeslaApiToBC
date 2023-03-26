@@ -102,7 +102,9 @@ table 60202 "Tesla API Flow Control"
         else
             "Has More Rows" := false;
         if ResponseJson.AsObject().Get('totalResults', JValue) then
-            "Row Count" += JValue.AsValue().AsInteger();
+            "Row Count" += JValue.AsValue().AsInteger()
+        else
+            "Row Count" += 1;
 
         "Page Number" += 1;
 
