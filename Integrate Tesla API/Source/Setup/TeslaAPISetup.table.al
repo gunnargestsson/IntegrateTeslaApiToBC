@@ -79,18 +79,6 @@ table 60200 "Tesla API Setup"
         exit(StrSubstNo(AuthorizationTok, "Tesla API Access Token"));
     end;
 
-    local procedure GetDownloadUrl() Url: Text
-    var
-        IsHandled: Boolean;
-        UrlTok: Label 'https://owner-api.teslamotors.com/api/1/users/me', Locked = true;
-    begin
-        OnBeforeGetDownloadUrl(Url, IsHandled);
-        if IsHandled then
-            exit;
-
-        exit(UrlTok)
-    end;
-
     internal procedure GetMe()
     var
         TeslaOwnerApiHelper: Codeunit "Tesla Owner API Helper";
@@ -129,6 +117,23 @@ table 60200 "Tesla API Setup"
         ActivityLog.ShowEntries(Rec);
     end;
 
+    local procedure GetDownloadUrl() Url: Text
+    var
+        IsHandled: Boolean;
+        UrlTok: Label 'https://owner-api.teslamotors.com/api/1/users/me', Locked = true;
+    begin
+        OnBeforeGetDownloadUrl(Url, IsHandled);
+        if IsHandled then
+            exit;
+
+        exit(UrlTok)
+    end;
+
+    [IntegrationEvent(false, false)]
+    local procedure OnAfterGetMe(var Rec: Record "Tesla API Setup")
+    begin
+    end;
+
     [IntegrationEvent(false, false)]
     local procedure OnBeforeGetDownloadUrl(var Url: Text; var IsHandled: Boolean)
     begin
@@ -136,11 +141,6 @@ table 60200 "Tesla API Setup"
 
     [IntegrationEvent(false, false)]
     local procedure OnBeforeGetMe(var Rec: Record "Tesla API Setup"; var IsHandled: Boolean)
-    begin
-    end;
-
-    [IntegrationEvent(false, false)]
-    local procedure OnAfterGetMe(var Rec: Record "Tesla API Setup")
     begin
     end;
 }

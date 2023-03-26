@@ -1,7 +1,7 @@
 codeunit 60205 "Tesla API Memory"
 {
-    SingleInstance = true;
     Access = Internal;
+    SingleInstance = true;
 
     var
         VehicleInMemory: Record "Tesla Vehicle";

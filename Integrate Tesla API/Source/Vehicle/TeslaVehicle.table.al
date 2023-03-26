@@ -1,10 +1,10 @@
 table 60201 "Tesla Vehicle"
 {
+    Access = Internal;
     Caption = 'Tesla Vehicle';
+    DataCaptionFields = display_name;
     DataClassification = SystemMetadata;
     TableType = Temporary;
-    DataCaptionFields = display_name;
-    Access = Internal;
 
     fields
     {
@@ -92,66 +92,11 @@ table 60201 "Tesla Vehicle"
         }
     }
 
-    internal procedure LoadOptionCodes(var TempNameValueBuffer: Record "Name/Value Buffer")
-    var
-        TempBlob: Codeunit "Temp Blob";
-        InStr: Instream;
-        OptionCode, OptionCodes : Text;
-        OptionCodeList: List of [Text];
-    begin
-        TempNameValueBuffer.DeleteAll();
-        TempBlob.FromRecord(Rec, FieldNo(option_codes));
-        if not TempBlob.HasValue() then
-            exit;
-
-        TempBlob.CreateInStream(InStr, TextEncoding::UTF8);
-        InStr.ReadText(OptionCodes);
-        OptionCodeList := OptionCodes.Split(',');
-        foreach OptionCode in OptionCodeList do
-            TempNameValueBuffer.AddNewEntry(OptionCode, '');
-    end;
-
-    local procedure GetDownloadUrl() Url: Text
-    var
-        IsHandled: Boolean;
-        UrlTok: Label 'https://owner-api.teslamotors.com/api/1/vehicles', Locked = true;
-    begin
-        OnBeforeGetDownloadUrl(Url, IsHandled);
-        if IsHandled then
-            exit;
-
-        exit(UrlTok)
-    end;
-
-    local procedure GetWakeUpUrl() Url: Text
-    var
-        IsHandled: Boolean;
-        UrlTok: Label 'https://owner-api.teslamotors.com/api/1/vehicles/%1/wake_up', Locked = true;
-    begin
-        OnBeforeGetWakeUpUrl(Rec, Url, IsHandled);
-        if IsHandled then
-            exit;
-
-        exit(StrSubStNo(UrlTok, id_s));
-    end;
-
-    local procedure GetHonkHornUrl() Url: Text
-    var
-        IsHandled: Boolean;
-        UrlTok: Label 'https://owner-api.teslamotors.com/api/1/vehicles/%1/command/honk_horn', Locked = true;
-    begin
-        OnBeforeGetHonkHornUrl(Rec, Url, IsHandled);
-        if IsHandled then
-            exit;
-
-        exit(StrSubStNo(UrlTok, id_s));
-    end;
-
     internal procedure GetVehicles(Force: Boolean)
     var
         SessionMemory: Codeunit "Tesla API Memory";
         TeslaOwnerApiHelper: Codeunit "Tesla Owner API Helper";
-        IsHandled, HasRecords : Boolean;
+        HasRecords, IsHandled : Boolean;
     begin
         OnBeforeGetVehicles(Rec, IsHandled);
         if IsHandled then
@@ -164,22 +109,6 @@ table 60201 "Tesla Vehicle"
             TeslaOwnerApiHelper.DownloadWithFlowControl(GetDownloadUrl(), Rec);
 
         OnAfterGetVehicles(Rec);
-    end;
-
-    [NonDebuggable]
-    internal procedure WakeUp()
-    var
-        Setup: Record "Tesla API Setup";
-        ApiHelper: Codeunit "Tesla API Request Helper";
-        Request: HttpRequestMessage;
-        Response: HttpResponseMessage;
-        ResponseJson: JsonToken;
-    begin
-        Setup.Get();
-        ApiHelper.SetRequest(GetWakeUpUrl(), 'Post', Setup.GetAuthorization(), Request);
-        ApiHelper.SendRequest(Request, Response, 30000);
-        ResponseJson := ApiHelper.ReadAsJson(Response);
-        ApiHelper.ReadJsonArray(ResponseJson, 'response', Rec);
     end;
 
     [NonDebuggable]
@@ -196,12 +125,93 @@ table 60201 "Tesla Vehicle"
         ApiHelper.SetRequest(GetHonkHornUrl(), 'Post', Setup.GetAuthorization(), Request);
         ApiHelper.SendRequest(Request, Response, 30000);
         ResponseJson := ApiHelper.ReadAsJson(Response);
-        ApiHelper.ReadJsonArray(ResponseJson, 'response', CommandResult);
+        ApiHelper.ReadJsonToken(ResponseJson, 'response', CommandResult);
         CommandResult.ShowResult();
+    end;
+
+    internal procedure LoadOptionCodes(var TempNameValueBuffer: Record "Name/Value Buffer")
+    var
+        TempBlob: Codeunit "Temp Blob";
+        InStr: InStream;
+        OptionCodeList: List of [Text];
+        OptionCode, OptionCodes : Text;
+    begin
+        TempNameValueBuffer.DeleteAll();
+        TempBlob.FromRecord(Rec, FieldNo(option_codes));
+        if not TempBlob.HasValue() then
+            exit;
+
+        TempBlob.CreateInStream(InStr, TextEncoding::UTF8);
+        InStr.ReadText(OptionCodes);
+        OptionCodeList := OptionCodes.Split(',');
+        foreach OptionCode in OptionCodeList do
+            TempNameValueBuffer.AddNewEntry(OptionCode, '');
+    end;
+
+    [NonDebuggable]
+    internal procedure WakeUp()
+    var
+        Setup: Record "Tesla API Setup";
+        ApiHelper: Codeunit "Tesla API Request Helper";
+        Request: HttpRequestMessage;
+        Response: HttpResponseMessage;
+        ResponseJson: JsonToken;
+    begin
+        Setup.Get();
+        ApiHelper.SetRequest(GetWakeUpUrl(), 'Post', Setup.GetAuthorization(), Request);
+        ApiHelper.SendRequest(Request, Response, 30000);
+        ResponseJson := ApiHelper.ReadAsJson(Response);
+        ApiHelper.ReadJsonToken(ResponseJson, 'response', Rec);
+    end;
+
+    local procedure GetDownloadUrl() Url: Text
+    var
+        IsHandled: Boolean;
+        UrlTok: Label 'https://owner-api.teslamotors.com/api/1/vehicles', Locked = true;
+    begin
+        OnBeforeGetDownloadUrl(Url, IsHandled);
+        if IsHandled then
+            exit;
+
+        exit(UrlTok)
+    end;
+
+    local procedure GetHonkHornUrl() Url: Text
+    var
+        IsHandled: Boolean;
+        UrlTok: Label 'https://owner-api.teslamotors.com/api/1/vehicles/%1/command/honk_horn', Locked = true;
+    begin
+        OnBeforeGetHonkHornUrl(Rec, Url, IsHandled);
+        if IsHandled then
+            exit;
+
+        exit(StrSubstNo(UrlTok, id_s));
+    end;
+
+    local procedure GetWakeUpUrl() Url: Text
+    var
+        IsHandled: Boolean;
+        UrlTok: Label 'https://owner-api.teslamotors.com/api/1/vehicles/%1/wake_up', Locked = true;
+    begin
+        OnBeforeGetWakeUpUrl(Rec, Url, IsHandled);
+        if IsHandled then
+            exit;
+
+        exit(StrSubstNo(UrlTok, id_s));
+    end;
+
+    [IntegrationEvent(false, false)]
+    local procedure OnAfterGetVehicles(var Rec: Record "Tesla Vehicle")
+    begin
     end;
 
     [IntegrationEvent(false, false)]
     local procedure OnBeforeGetDownloadUrl(var Url: Text; var IsHandled: Boolean)
+    begin
+    end;
+
+    [IntegrationEvent(false, false)]
+    local procedure OnBeforeGetHonkHornUrl(var Rec: Record "Tesla Vehicle"; var Url: Text; var IsHandled: Boolean)
     begin
     end;
 
@@ -211,17 +221,7 @@ table 60201 "Tesla Vehicle"
     end;
 
     [IntegrationEvent(false, false)]
-    local procedure OnAfterGetVehicles(var Rec: Record "Tesla Vehicle")
-    begin
-    end;
-
-    [IntegrationEvent(false, false)]
     local procedure OnBeforeGetWakeUpUrl(var Rec: Record "Tesla Vehicle"; var Url: Text; var IsHandled: Boolean)
-    begin
-    end;
-
-    [IntegrationEvent(false, false)]
-    local procedure OnBeforeGetHonkHornUrl(var Rec: Record "Tesla Vehicle"; var Url: Text; var IsHandled: Boolean)
     begin
     end;
 }

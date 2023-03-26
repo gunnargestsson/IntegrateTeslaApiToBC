@@ -2,22 +2,16 @@ page 60204 "Tesla Charging Invoices"
 {
     ApplicationArea = All;
     Caption = 'Tesla Charging Invoices';
-    PageType = List;
-    SourceTable = "Tesla Charging Invoice";
-    UsageCategory = History;
     Editable = false;
+    PageType = ListPart;
+    SourceTable = "Tesla Charging Invoice";
 
     layout
     {
-        area(content)
+        area(Content)
         {
             repeater(General)
             {
-                field("Vehicle VIN"; Rec."Vehicle VIN")
-                {
-                    ApplicationArea = All;
-                    ToolTip = 'Specifies the value of the Vehicle VIN field.';
-                }
                 field(contentId; Rec.contentId)
                 {
                     ApplicationArea = All;
@@ -36,4 +30,9 @@ page 60204 "Tesla Charging Invoices"
             }
         }
     }
+
+    internal procedure Set(var Invoice: Record "Tesla Charging Invoice")
+    begin
+        Rec.Copy(Invoice, true)
+    end;
 }

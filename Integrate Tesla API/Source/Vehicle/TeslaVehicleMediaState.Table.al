@@ -1,9 +1,9 @@
 table 60206 "Tesla Vehicle Media State"
 {
+    Access = Internal;
     Caption = 'Tesla Vehicle Media State';
     DataClassification = SystemMetadata;
     TableType = Temporary;
-    Access = Internal;
 
     fields
     {

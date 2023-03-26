@@ -346,74 +346,19 @@ table 60203 "Tesla Vehicle Status"
         Setup: Record "Tesla API Setup";
         Convert: Codeunit "Tesla Data Convert";
 
-    local procedure GetStatusUrl(VehicleId: Text) Url: Text
-    var
-        IsHandled: Boolean;
-        UrlTok: Label 'https://owner-api.teslamotors.com/api/1/vehicles/%1/data_request/vehicle_state', Locked = true;
-    begin
-        OnBeforeGetStatusUrl(Rec, VehicleId, Url, IsHandled);
-        if IsHandled then
-            exit;
-
-        exit(StrSubStNo(UrlTok, VehicleId));
-    end;
-
-    local procedure GetUnlockUrl(VehicleId: Text) Url: Text
-    var
-        IsHandled: Boolean;
-        UrlTok: Label 'https://owner-api.teslamotors.com/api/1/vehicles/%1/command/door_unlock', Locked = true;
-    begin
-        OnBeforeGetUnlockUrl(Rec, VehicleId, Url, IsHandled);
-        if IsHandled then
-            exit;
-
-        exit(StrSubStNo(UrlTok, VehicleId));
-    end;
-
-    local procedure GetLockUrl(VehicleId: Text) Url: Text
-    var
-        IsHandled: Boolean;
-        UrlTok: Label 'https://owner-api.teslamotors.com/api/1/vehicles/%1/command/door_lock', Locked = true;
-    begin
-        OnBeforeGetLockUrl(Rec, VehicleId, Url, IsHandled);
-        if IsHandled then
-            exit;
-
-        exit(StrSubStNo(UrlTok, VehicleId));
-    end;
-
     internal procedure GetVehicleStatus(Vehicle: Record "Tesla Vehicle"; Force: Boolean)
     var
         SessionMemory: Codeunit "Tesla API Memory";
         TeslaOwnerApiHelper: Codeunit "Tesla Owner API Helper";
-        IsHandled, HasRecords : Boolean;
+        HasRecords: Boolean;
     begin
         HasRecords := SessionMemory.GetInMemoryInstance(Vehicle, Rec);
         if Force then
             Rec.DeleteAll();
-        Rec.ID := Vehicle.ID;
+        Rec.ID := Vehicle.id;
         if Force or not HasRecords then
             TeslaOwnerApiHelper.DownloadWithFlowControl(GetStatusUrl(Vehicle.id_s), Rec);
         Rec.FindFirst();
-    end;
-
-    [NonDebuggable]
-    internal procedure UnlockDoors(Vehicle: Record "Tesla Vehicle")
-    var
-        Setup: Record "Tesla API Setup";
-        CommandResult: Record "Tesla Command Result";
-        ApiHelper: Codeunit "Tesla API Request Helper";
-        Request: HttpRequestMessage;
-        Response: HttpResponseMessage;
-        ResponseJson: JsonToken;
-    begin
-        Setup.Get();
-        ApiHelper.SetRequest(GetUnlockUrl(Vehicle.id_s), 'Post', Setup.GetAuthorization(), Request);
-        ApiHelper.SendRequest(Request, Response, 30000);
-        ResponseJson := ApiHelper.ReadAsJson(Response);
-        ApiHelper.ReadJsonArray(ResponseJson, 'response', CommandResult);
-        CommandResult.ShowResult();
-        Modify(true);
     end;
 
     [NonDebuggable]
@@ -430,9 +375,69 @@ table 60203 "Tesla Vehicle Status"
         ApiHelper.SetRequest(GetLockUrl(Vehicle.id_s), 'Post', Setup.GetAuthorization(), Request);
         ApiHelper.SendRequest(Request, Response, 30000);
         ResponseJson := ApiHelper.ReadAsJson(Response);
-        ApiHelper.ReadJsonArray(ResponseJson, 'response', CommandResult);
+        ApiHelper.ReadJsonToken(ResponseJson, 'response', CommandResult);
         CommandResult.ShowResult();
         Modify(true);
+    end;
+
+    [NonDebuggable]
+    internal procedure UnlockDoors(Vehicle: Record "Tesla Vehicle")
+    var
+        Setup: Record "Tesla API Setup";
+        CommandResult: Record "Tesla Command Result";
+        ApiHelper: Codeunit "Tesla API Request Helper";
+        Request: HttpRequestMessage;
+        Response: HttpResponseMessage;
+        ResponseJson: JsonToken;
+    begin
+        Setup.Get();
+        ApiHelper.SetRequest(GetUnlockUrl(Vehicle.id_s), 'Post', Setup.GetAuthorization(), Request);
+        ApiHelper.SendRequest(Request, Response, 30000);
+        ResponseJson := ApiHelper.ReadAsJson(Response);
+        ApiHelper.ReadJsonToken(ResponseJson, 'response', CommandResult);
+        CommandResult.ShowResult();
+        Modify(true);
+    end;
+
+    local procedure GetLockUrl(VehicleId: Text) Url: Text
+    var
+        IsHandled: Boolean;
+        UrlTok: Label 'https://owner-api.teslamotors.com/api/1/vehicles/%1/command/door_lock', Locked = true;
+    begin
+        OnBeforeGetLockUrl(Rec, VehicleId, Url, IsHandled);
+        if IsHandled then
+            exit;
+
+        exit(StrSubstNo(UrlTok, VehicleId));
+    end;
+
+    local procedure GetStatusUrl(VehicleId: Text) Url: Text
+    var
+        IsHandled: Boolean;
+        UrlTok: Label 'https://owner-api.teslamotors.com/api/1/vehicles/%1/data_request/vehicle_state', Locked = true;
+    begin
+        OnBeforeGetStatusUrl(Rec, VehicleId, Url, IsHandled);
+        if IsHandled then
+            exit;
+
+        exit(StrSubstNo(UrlTok, VehicleId));
+    end;
+
+    local procedure GetUnlockUrl(VehicleId: Text) Url: Text
+    var
+        IsHandled: Boolean;
+        UrlTok: Label 'https://owner-api.teslamotors.com/api/1/vehicles/%1/command/door_unlock', Locked = true;
+    begin
+        OnBeforeGetUnlockUrl(Rec, VehicleId, Url, IsHandled);
+        if IsHandled then
+            exit;
+
+        exit(StrSubstNo(UrlTok, VehicleId));
+    end;
+
+    [IntegrationEvent(false, false)]
+    local procedure OnBeforeGetLockUrl(var Rec: Record "Tesla Vehicle Status"; VehicleId: Text; var Url: Text; var IsHandled: Boolean)
+    begin
     end;
 
     [IntegrationEvent(false, false)]
@@ -444,10 +449,4 @@ table 60203 "Tesla Vehicle Status"
     local procedure OnBeforeGetUnlockUrl(var Rec: Record "Tesla Vehicle Status"; VehicleId: Text; var Url: Text; var IsHandled: Boolean)
     begin
     end;
-
-    [IntegrationEvent(false, false)]
-    local procedure OnBeforeGetLockUrl(var Rec: Record "Tesla Vehicle Status"; VehicleId: Text; var Url: Text; var IsHandled: Boolean)
-    begin
-    end;
-
 }

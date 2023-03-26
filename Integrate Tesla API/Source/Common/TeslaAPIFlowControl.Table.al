@@ -90,8 +90,8 @@ table 60202 "Tesla API Flow Control"
 
     internal procedure ReadFlowData(var ResponseJson: JsonToken)
     var
-        JValue: JsonToken;
         IsHandled: Boolean;
+        JValue: JsonToken;
     begin
         OnBeforeReadFlowData(Rec, ResponseJson, IsHandled);
         if IsHandled then
@@ -209,12 +209,12 @@ table 60202 "Tesla API Flow Control"
     end;
 
     [IntegrationEvent(false, false)]
-    local procedure OnBeforeReadFlowData(var Rec: Record "Tesla API Flow Control"; var ResponseJson: JsonToken; var IsHandled: Boolean)
+    local procedure OnAfterReadFlowData(var Rec: Record "Tesla API Flow Control"; var ResponseJson: JsonToken)
     begin
     end;
 
     [IntegrationEvent(false, false)]
-    local procedure OnAfterReadFlowData(var Rec: Record "Tesla API Flow Control"; var ResponseJson: JsonToken)
+    local procedure OnBeforeReadFlowData(var Rec: Record "Tesla API Flow Control"; var ResponseJson: JsonToken; var IsHandled: Boolean)
     begin
     end;
 }

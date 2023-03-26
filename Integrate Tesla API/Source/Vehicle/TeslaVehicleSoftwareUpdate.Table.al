@@ -1,9 +1,9 @@
 table 60210 "Tesla Vehicle Software Update"
 {
+    Access = Internal;
     Caption = 'Tesla Vehicle Software Update';
     DataClassification = SystemMetadata;
     TableType = Temporary;
-    Access = Internal;
 
     fields
     {

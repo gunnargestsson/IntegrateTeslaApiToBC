@@ -88,8 +88,8 @@ page 60200 "Tesla API Setup"
                 ApplicationArea = All;
                 Caption = 'Vehicles';
                 Image = ShowList;
-                ToolTip = 'View Vehicles';
                 RunObject = page "Tesla Vehicle List";
+                ToolTip = 'View Vehicles';
             }
         }
     }

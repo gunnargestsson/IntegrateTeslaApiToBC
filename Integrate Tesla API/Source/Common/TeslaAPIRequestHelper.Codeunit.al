@@ -26,6 +26,11 @@ codeunit 60201 "Tesla API Request Helper"
         Headers.Add(HeaderName, HeaderValue);
     end;
 
+    internal procedure GetChildJsonToken(JToken: JsonToken; ChildName: Text) ChildJToken: JsonToken
+    begin
+        JToken.AsObject().Get(ChildName, ChildJToken);
+    end;
+
     internal procedure ReadAsJson(var Response: HttpResponseMessage) Json: JsonToken
     var
         JsonAsText: Text;
@@ -45,15 +50,18 @@ codeunit 60201 "Tesla API Request Helper"
         CopyStream(OutStr, ResponseStream);
     end;
 
-    internal procedure ReadJsonArray(var ResponseJson: JsonToken; ArrayName: Text; RecVariant: Variant)
+    internal procedure ReadJsonToken(var ResponseJson: JsonToken; ArrayName: Text; RecVariant: Variant)
     var
         DataTypeMgt: Codeunit "Data Type Management";
         TemplateRecRef: RecordRef;
         JArray, JObject : JsonToken;
     begin
         if not DataTypeMgt.GetRecordRef(RecVariant, TemplateRecRef) then exit;
-        if not ResponseJson.AsObject().Get(ArrayName, JArray) then exit;
-        IF JArray.IsValue() then
+        if ArrayName = '' then
+            JArray := ResponseJson
+        else
+            if not ResponseJson.AsObject().Get(ArrayName, JArray) then exit;
+        if JArray.IsValue() then
             if JArray.AsValue().IsNull() then exit;
         if JArray.IsObject() then begin
             ReadJsonObject(TemplateRecRef, JArray);
@@ -176,11 +184,6 @@ codeunit 60201 "Tesla API Request Helper"
             RecRef.Modify(true)
         else
             RecRef.Insert(true);
-    end;
-
-    internal procedure GetChildJsonToken(JToken: JsonToken; ChildName: Text) ChildJToken: JsonToken
-    begin
-        JToken.AsObject().Get(ChildName, ChildJToken);
     end;
 
     local procedure ThrowErrorIfNotSuccess(var Response: HttpResponseMessage)

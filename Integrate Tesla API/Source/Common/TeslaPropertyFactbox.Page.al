@@ -1,24 +1,26 @@
 page 60203 "Tesla Property Factbox"
 {
     Caption = 'Tesla Property Factbox';
+    Editable = false;
     PageType = ListPart;
     SourceTable = "Name/Value Buffer";
     SourceTableTemporary = true;
-    Editable = false;
 
     layout
     {
-        area(content)
+        area(Content)
         {
             repeater(General)
             {
                 field(Name; Rec.Name)
                 {
                     ApplicationArea = All;
+                    ToolTip = 'Specifies the ID of the Azure Active Directory application that will be used to connect to Exchange.';
                 }
                 field("Value"; Rec.GetValue())
                 {
                     ApplicationArea = All;
+                    ToolTip = 'Specifies the value of the GetValue() field.';
                     Visible = ShowValue;
                 }
             }

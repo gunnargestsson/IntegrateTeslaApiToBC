@@ -1,9 +1,9 @@
 table 60205 "Tesla Command Result"
 {
+    Access = Internal;
     Caption = 'Tesla Command Result';
     DataClassification = SystemMetadata;
     TableType = Temporary;
-    Access = Internal;
 
     fields
     {

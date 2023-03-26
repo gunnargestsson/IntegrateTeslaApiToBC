@@ -1,9 +1,9 @@
 table 60204 "Tesla Vehicle Speed Limit Mode"
 {
+    Access = Internal;
     Caption = 'Tesla Vehicle Speed Limit Mode';
     DataClassification = SystemMetadata;
     TableType = Temporary;
-    Access = Internal;
 
     fields
     {

@@ -1,18 +1,18 @@
 page 60201 "Tesla Vehicle Card"
 {
     Caption = 'Tesla Vehicle Card';
-    PageType = Card;
-    SourceTable = "Tesla Vehicle";
-    InsertAllowed = false;
-    ;
-    LinksAllowed = false;
-    SaveValues = false;
     DeleteAllowed = false;
+    InsertAllowed = false;
+    LinksAllowed = false;
     ModifyAllowed = true;
+    PageType = Card;
+    SaveValues = false;
+    SourceTable = "Tesla Vehicle";
+    ;
 
     layout
     {
-        area(content)
+        area(Content)
         {
             group(General)
             {
@@ -101,9 +101,9 @@ page 60201 "Tesla Vehicle Card"
                 {
                     ApplicationArea = All;
                     Caption = 'Odometer';
+                    DecimalPlaces = 0;
                     Editable = false;
                     ToolTip = 'Specifies the value of the Odometer field.';
-                    DecimalPlaces = 0;
                 }
                 field(sentry_mode; Status.sentry_mode)
                 {
@@ -147,7 +147,6 @@ page 60201 "Tesla Vehicle Card"
                     Editable = false;
                     ToolTip = 'Specifies the value of the Valet Mode field.';
                 }
-
             }
         }
         area(FactBoxes)
@@ -198,42 +197,23 @@ page 60201 "Tesla Vehicle Card"
                     Status.GetVehicleStatus(Rec, true);
                 end;
             }
-            action(GetChargingInvoices)
-            {
-                ApplicationArea = All;
-                Caption = 'Get Charging Invoices';
-                Image = Download;
-                ToolTip = 'Get charging invoices for the vehicle.';
-                trigger OnAction()
-                var
-                    TeslaChargingInvoice: Record "Tesla Charging Invoice";
-                begin
-                    TeslaChargingInvoice.GetNewInvoices(Rec);
-                end;
-            }
         }
         area(Navigation)
         {
-            action(ChargingInvoices)
+            action(ChargingSessions)
             {
                 ApplicationArea = All;
-                Caption = 'Charging Invoices';
+                Caption = 'Charging Sessions';
                 Image = Download;
-                ToolTip = 'View charging invoices for the vehicle.';
-                trigger OnAction()
-                var
-                    TeslaChargingInvoice: Record "Tesla Charging Invoice";
-                begin
-                    TeslaChargingInvoice.SetRange("Vehicle VIN", Rec.vin);
-                    PAGE.Run(PAGE::"Tesla Charging Invoices", TeslaChargingInvoice);
-                end;
+                RunObject = page "Tesla Charging Session List";
+                RunPageLink = vin = field(vin);
+                ToolTip = 'View charging Sessions for the vehicle.';
             }
         }
     }
     var
-        Status: Record "Tesla Vehicle Status";
         TempNameValueBuffer: Record "Name/Value Buffer" temporary;
-
+        Status: Record "Tesla Vehicle Status";
 
     trigger OnOpenPage()
     begin
@@ -246,5 +226,4 @@ page 60201 "Tesla Vehicle Card"
         Rec.LoadOptionCodes(TempNameValueBuffer);
         Status.GetVehicleStatus(Rec, false);
     end;
-
 }

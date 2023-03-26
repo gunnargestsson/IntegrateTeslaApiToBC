@@ -29,7 +29,7 @@ codeunit 60200 "Tesla Owner API Helper"
         TempFlowControl.Init();
         while TempFlowControl."Has More Rows" do begin
             GetByUrl(Url, TempFlowControl."Row Offset", QueryFilter, ResponseJson);
-            RequestMgt.ReadJsonArray(ResponseJson, 'response', RecVariant);
+            RequestMgt.ReadJsonToken(ResponseJson, 'response', RecVariant);
             TempFlowControl.ReadFlowData(ResponseJson);
             CollectionCount += TempFlowControl."Row Count";
             TempFlowControl."Row Offset" := TempFlowControl."Row Offset" + TempFlowControl."Row Count";
@@ -51,5 +51,4 @@ codeunit 60200 "Tesla Owner API Helper"
         ApiHelper.SendRequest(Request, Response, 30000);
         ResponseJson := ApiHelper.ReadAsJson(Response)
     end;
-
 }
