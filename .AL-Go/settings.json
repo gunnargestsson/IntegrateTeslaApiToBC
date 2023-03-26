@@ -1,6 +1,11 @@
 {
   "country": "is",
-  "appFolders": ["Integrate Tesla API"],
-  "testFolders": ["Integrate Tesla API.Test"],
-  "bcptTestFolders": []
+  "appFolders": [
+    "Integrate Tesla API"
+  ],
+  "testFolders": [
+    "Integrate Tesla API.Test"
+  ],
+  "bcptTestFolders": [],
+  "repoVersion": "1.1"
 }
