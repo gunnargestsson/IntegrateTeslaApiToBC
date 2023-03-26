@@ -38,7 +38,6 @@ codeunit 60200 "Tesla Owner API Helper"
         end;
     end;
 
-    [NonDebuggable]
     local procedure GetByUrl(Url: Text; RowOffset: Integer; QueryFilter: Text; var ResponseJson: JsonToken)
     var
         Setup: Record "Tesla API Setup";
@@ -47,7 +46,7 @@ codeunit 60200 "Tesla Owner API Helper"
         Response: HttpResponseMessage;
     begin
         Setup.Get();
-        ApiHelper.SetRequest(Url, 'Get', Setup.GetAuthorization(), Request);
+        ApiHelper.SetRequest(Url, 'Get', Setup, Request);
         ApiHelper.SendRequest(Request, Response, 30000);
         ResponseJson := ApiHelper.ReadAsJson(Response)
     end;

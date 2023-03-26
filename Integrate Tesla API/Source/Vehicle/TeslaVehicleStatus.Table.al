@@ -361,7 +361,6 @@ table 60203 "Tesla Vehicle Status"
         Rec.FindFirst();
     end;
 
-    [NonDebuggable]
     internal procedure LockDoors(Vehicle: Record "Tesla Vehicle")
     var
         Setup: Record "Tesla API Setup";
@@ -372,7 +371,7 @@ table 60203 "Tesla Vehicle Status"
         ResponseJson: JsonToken;
     begin
         Setup.Get();
-        ApiHelper.SetRequest(GetLockUrl(Vehicle.id_s), 'Post', Setup.GetAuthorization(), Request);
+        ApiHelper.SetRequest(GetLockUrl(Vehicle.id_s), 'Post', Setup, Request);
         ApiHelper.SendRequest(Request, Response, 30000);
         ResponseJson := ApiHelper.ReadAsJson(Response);
         ApiHelper.ReadJsonToken(ResponseJson, 'response', CommandResult);
@@ -380,7 +379,6 @@ table 60203 "Tesla Vehicle Status"
         Modify(true);
     end;
 
-    [NonDebuggable]
     internal procedure UnlockDoors(Vehicle: Record "Tesla Vehicle")
     var
         Setup: Record "Tesla API Setup";
@@ -391,7 +389,7 @@ table 60203 "Tesla Vehicle Status"
         ResponseJson: JsonToken;
     begin
         Setup.Get();
-        ApiHelper.SetRequest(GetUnlockUrl(Vehicle.id_s), 'Post', Setup.GetAuthorization(), Request);
+        ApiHelper.SetRequest(GetUnlockUrl(Vehicle.id_s), 'Post', Setup, Request);
         ApiHelper.SendRequest(Request, Response, 30000);
         ResponseJson := ApiHelper.ReadAsJson(Response);
         ApiHelper.ReadJsonToken(ResponseJson, 'response', CommandResult);

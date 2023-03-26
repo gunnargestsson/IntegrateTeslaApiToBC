@@ -92,6 +92,18 @@ codeunit 60201 "Tesla API Request Helper"
     end;
 
     [NonDebuggable]
+    internal procedure SetRequest(Url: Text; Method: Text; Setup: Record "Tesla API Setup"; var Request: HttpRequestMessage)
+    var
+        Headers: HttpHeaders;
+    begin
+        Clear(Request);
+        Request.Method(Method);
+        Request.SetRequestUri(Url);
+        Request.GetHeaders(Headers);
+        Headers.Add('Authorization', Setup.GetAuthorization());
+    end;
+
+    [NonDebuggable]
     internal procedure SetRequest(Url: Text; Method: Text; Authorization: Text; var Request: HttpRequestMessage)
     var
         Headers: HttpHeaders;

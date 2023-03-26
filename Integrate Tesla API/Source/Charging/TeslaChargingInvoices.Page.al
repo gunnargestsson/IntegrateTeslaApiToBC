@@ -30,6 +30,34 @@ page 60204 "Tesla Charging Invoices"
             }
         }
     }
+    actions
+    {
+        area(Processing)
+        {
+            action(Download)
+            {
+                ApplicationArea = All;
+                Caption = 'Download';
+                Image = Download;
+                ToolTip = 'Download the selected invoice.';
+                trigger OnAction()
+                begin
+                    Rec.DownloadInvoicePDFFromBC();
+                end;
+            }
+            action(CreateIncomingDocument)
+            {
+                ApplicationArea = All;
+                Caption = 'Create Incoming Document';
+                Image = DocumentEdit;
+                ToolTip = 'Create an incoming document from the selected invoice.';
+                trigger OnAction()
+                begin
+                    Rec.AddInvoiceToIncomingDocument();
+                end;
+            }
+        }
+    }
 
     internal procedure Set(var Invoice: Record "Tesla Charging Invoice")
     begin

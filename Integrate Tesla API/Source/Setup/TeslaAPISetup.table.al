@@ -71,6 +71,7 @@ table 60200 "Tesla API Setup"
             ActivityLog.DeleteAll();
     end;
 
+    [NonDebuggable]
     internal procedure GetAuthorization(): Text
     var
         AuthorizationTok: Label 'Bearer %1', Locked = true;

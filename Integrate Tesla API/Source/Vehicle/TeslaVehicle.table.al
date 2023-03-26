@@ -111,7 +111,6 @@ table 60201 "Tesla Vehicle"
         OnAfterGetVehicles(Rec);
     end;
 
-    [NonDebuggable]
     internal procedure HonkHorn()
     var
         Setup: Record "Tesla API Setup";
@@ -122,7 +121,7 @@ table 60201 "Tesla Vehicle"
         ResponseJson: JsonToken;
     begin
         Setup.Get();
-        ApiHelper.SetRequest(GetHonkHornUrl(), 'Post', Setup.GetAuthorization(), Request);
+        ApiHelper.SetRequest(GetHonkHornUrl(), 'Post', Setup, Request);
         ApiHelper.SendRequest(Request, Response, 30000);
         ResponseJson := ApiHelper.ReadAsJson(Response);
         ApiHelper.ReadJsonToken(ResponseJson, 'response', CommandResult);
@@ -148,7 +147,6 @@ table 60201 "Tesla Vehicle"
             TempNameValueBuffer.AddNewEntry(OptionCode, '');
     end;
 
-    [NonDebuggable]
     internal procedure WakeUp()
     var
         Setup: Record "Tesla API Setup";
@@ -158,7 +156,7 @@ table 60201 "Tesla Vehicle"
         ResponseJson: JsonToken;
     begin
         Setup.Get();
-        ApiHelper.SetRequest(GetWakeUpUrl(), 'Post', Setup.GetAuthorization(), Request);
+        ApiHelper.SetRequest(GetWakeUpUrl(), 'Post', Setup, Request);
         ApiHelper.SendRequest(Request, Response, 30000);
         ResponseJson := ApiHelper.ReadAsJson(Response);
         ApiHelper.ReadJsonToken(ResponseJson, 'response', Rec);
