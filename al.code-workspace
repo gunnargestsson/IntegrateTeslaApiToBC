@@ -1,9 +1,6 @@
 {
     "folders": [
         {
-            "path": ".AL-Go"
-        },
-        {
             "path": "Integrate Tesla API"
         },
         {
@@ -35,9 +32,9 @@
             "maxDegreeOfParallelism": 12
         },
         "al.enableCodeActions": true,
-        "al.enableCodeAnalysis": false,
+        "al.enableCodeAnalysis": true,
         "al.browser": "Edge",
-        "al.backgroundCodeAnalysis": false,
+        "al.backgroundCodeAnalysis": true,
         "al.incrementalBuild": false,
         "al-xml-doc.CheckProcedureDocumentationForAccessLevel": [
             "Public"
@@ -93,6 +90,14 @@
         "alOutline.stripNonAlphanumericCharactersFromObjectNames": true,
         "cSpell.words": [
             "Kappi"
-        ]
+        ],
+        "NAB.UseDTS": true,
+        "NAB.DTS ProjectId": "62719",
+        "github.copilot.enable": {
+            "*": true,
+            "yaml": false,
+            "plaintext": false,
+            "markdown": false
+        }
     }
 }

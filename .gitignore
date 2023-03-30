@@ -16,6 +16,7 @@ rad.json
 .alcache/
 .altemplates/
 .snapshots/
+.dts/
 cache_*
 ~$*
 Integrate Tesla API.Test/http/api.http

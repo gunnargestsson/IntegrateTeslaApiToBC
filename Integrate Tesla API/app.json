@@ -24,5 +24,6 @@
     "allowDebugging": true,
     "allowDownloadingSource": false,
     "includeSourceInSymbolFile": false
-  }
+  },
+  "features": ["NoImplicitWith","TranslationFile"]
 }
