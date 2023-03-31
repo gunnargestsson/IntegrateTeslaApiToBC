@@ -1,0 +1,2080 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" target-language="fi-FI" original="Integrate Tesla API.g.xlf">
+    <body>
+      <group id="body">
+        <trans-unit id="Table 1180085934 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Tesla API Flow Control</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">API-työnkulun hallinta</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla API Flow Control - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1180085934 - Method 3584695359 - NamedType 1340069650" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%1 Minutes, %2 Seconds</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">%1 minuuttia, %2 sekuntia</target>
+          <note from="Developer" annotates="general" priority="2">%1 = Minutes passed ; %2 = Seconds Passed</note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla API Flow Control - Method FormatDuration - NamedType MinuteAndSecondsTxt</note>
+        </trans-unit>
+        <trans-unit id="Table 1180085934 - Method 3584695359 - NamedType 125480061" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%1 Seconds</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">%1 sekuntia</target>
+          <note from="Developer" annotates="general" priority="2">%1 = Seconds Passed</note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla API Flow Control - Method FormatDuration - NamedType SecondsTxt</note>
+        </trans-unit>
+        <trans-unit id="Table 1180085934 - Method 852721116 - NamedType 4272052785" size-unit="char" translate="yes" xml:space="preserve">
+          <source>\\Elapsed time :.................. #21#############</source>
+          <target state="needs-review-l10n" state-qualifier="rejected-inaccurate">\\Kulunut aika :.................. #21 #############</target>
+          <note from="Developer" annotates="general" priority="2">%21 = Elapsed Time</note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">The placeholder "#21#############" was found in source, but not in target.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla API Flow Control - Method OpenWindow - NamedType ElapsedTimeTxt</note>
+        </trans-unit>
+        <trans-unit id="Table 1180085934 - Method 852721116 - NamedType 2003151124" size-unit="char" translate="yes" xml:space="preserve">
+          <source>\Estimated end time :..... #23#############</source>
+          <target state="needs-review-l10n" state-qualifier="rejected-inaccurate">\Arvioitu lopetusaika :..... #23 #############</target>
+          <note from="Developer" annotates="general" priority="2">%23 = Calculated End Time</note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">The placeholder "#23#############" was found in source, but not in target.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla API Flow Control - Method OpenWindow - NamedType EstimatedEndTimeTxt</note>
+        </trans-unit>
+        <trans-unit id="Table 1180085934 - Method 852721116 - NamedType 2138510024" size-unit="char" translate="yes" xml:space="preserve">
+          <source>\Estimated time left :...... #22#############</source>
+          <target state="needs-review-l10n" state-qualifier="rejected-inaccurate">\Arvioitu aika jäljellä :...... #22 #############</target>
+          <note from="Developer" annotates="general" priority="2">%22 = Estimated time left</note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">The placeholder "#22#############" was found in source, but not in target.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla API Flow Control - Method OpenWindow - NamedType EstimatedTimeLeftTxt</note>
+        </trans-unit>
+        <trans-unit id="Table 1180085934 - Method 1551467728 - NamedType 1980850096" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%1 %2%3</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">%1 %2%3</target>
+          <note from="Developer" annotates="general" priority="2">%1 = First Half of Progress Bar; %2 Percentage Text; %3 Second Half of Progress Bar </note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla API Flow Control - Method ProgressBar - NamedType ProgressBarTxt</note>
+        </trans-unit>
+        <trans-unit id="Table 1180085934 - Field 3507747450 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Has More Rows</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Sisältää enemmän rivejä</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla API Flow Control - Field Has More Rows - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1180085934 - Field 3641927271 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>ID</source>
+          <target state="translated" state-qualifier="exact-match">Tunnus</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla API Flow Control - Field ID - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1180085934 - Field 4030545980 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Page Number</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Sivunumero</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla API Flow Control - Field Page Number - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1180085934 - Field 1544179739 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Row Count</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Rivien määrä</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla API Flow Control - Field Row Count - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1180085934 - Field 123039281 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Row Offset</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Rivin siirtymä</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla API Flow Control - Field Row Offset - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1180085934 - Field 844268572 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Row Total</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Rivi yhteensä</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla API Flow Control - Field Row Total - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1239891460 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Tesla API Setup</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Luots. api-aset.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla API Setup - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1239891460 - Field 1968500126 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Convert To KM</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Muunna kilometriksi</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla API Setup - Field Convert To KM - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1239891460 - Field 3163706192 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>E-Mail</source>
+          <target state="translated" state-qualifier="exact-match">Sähköposti</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla API Setup - Field email - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1239891460 - Field 2316906957 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Full Name</source>
+          <target state="translated" state-qualifier="exact-match">Koko nimi</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla API Setup - Field full_name - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1239891460 - Field 454980611 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Log Activity</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Lokitoiminto</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla API Setup - Field Log Activity - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1239891460 - Field 1663593181 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Primary Key</source>
+          <target state="translated" state-qualifier="exact-match">Perusavain</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla API Setup - Field Primary Key - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1239891460 - Field 3498817585 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Profile Image Url</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Profiilin kuvan URL-osoite</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla API Setup - Field profile_image_url - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1239891460 - Field 877894020 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Tesla API Access Token</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">API:n käyttöoikeustunnus</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla API Setup - Field Tesla API Access Token - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1239891460 - Field 2583454299 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Tesla API Refresh Token</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Vallan API:n päivitystunnus</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla API Setup - Field Tesla API Refresh Token - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1845588146 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Tesla Charging Fee</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Saanen veloit. maksua</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Charging Fee - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1845588146 - Field 2854441916 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Amount Due</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Erääntyvä summa</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Charging Fee - Field amountDue - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1845588146 - Field 1808640270 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Currency Code</source>
+          <target state="translated" state-qualifier="exact-match">Valuutan koodi</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Charging Fee - Field currencyCode - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1845588146 - Field 588170490 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Fee Type</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Maksutyyppi</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Charging Fee - Field feeType - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1845588146 - Field 568264562 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Is Paid</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">On maksettu</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Charging Fee - Field isPaid - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1845588146 - Field 2780772285 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Net Due</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Erääntyvä netto</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Charging Fee - Field netDue - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1845588146 - Field 1854665519 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Payor Unique Id</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Maksajan yksilöllinen tunnus</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Charging Fee - Field payorUid - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1845588146 - Field 3514201860 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Pricing Type</source>
+          <target state="translated" state-qualifier="exact-match">Hinnoittelutyyppi</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Charging Fee - Field pricingType - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1845588146 - Field 2501286929 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Rate Base</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Prosenttiperuste</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Charging Fee - Field rateBase - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1845588146 - Field 2592829187 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Rate Tier 1</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Prosenttitaso 1</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Charging Fee - Field rateTier1 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1845588146 - Field 210951742 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Rate Tier 2</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Kurssitaso 2</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Charging Fee - Field rateTier2 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1845588146 - Field 3868222421 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Rate Tier 3</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Kurssitaso 3</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Charging Fee - Field rateTier3 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1845588146 - Field 679739336 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Rate Tier 4</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Kurssitaso 4</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Charging Fee - Field rateTier4 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1845588146 - Field 247771103 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Session Fee Id</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Istuntomaksun tunnus</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Charging Fee - Field sessionFeeId - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1845588146 - Field 998393528 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Status</source>
+          <target state="translated" state-qualifier="exact-match">Tila</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Charging Fee - Field status - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1845588146 - Field 2008009673 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Total Base</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Perus yhteensä</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Charging Fee - Field totalBase - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1845588146 - Field 1008442394 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Total Due</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Erääntyvä yhteensä</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Charging Fee - Field totalDue - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1845588146 - Field 2398760971 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Total Tier 1</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Taso 1 yhteensä</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Charging Fee - Field totalTier1 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1845588146 - Field 16883526 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Total Tier 2</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Taso 2 yhteensä</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Charging Fee - Field totalTier2 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1845588146 - Field 3674154205 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Total Tier 3</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Taso 3 yhteensä</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Charging Fee - Field totalTier3 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1845588146 - Field 485671120 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Total Tier 4</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Taso 4 yhteensä</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Charging Fee - Field totalTier4 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1845588146 - Field 4235729644 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Unique Id</source>
+          <target state="translated" state-qualifier="exact-match">Yksilöllinen tunnus</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Charging Fee - Field uid - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1845588146 - Field 899894313 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Unit of Measure</source>
+          <target state="translated" state-qualifier="exact-match">Mittayksikkö</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Charging Fee - Field uom - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1845588146 - Field 3721978516 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Usage Base</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Käyttöperuste</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Charging Fee - Field usageBase - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1845588146 - Field 1234509754 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Usage Tier 1</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Käyttötaso 1</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Charging Fee - Field usageTier1 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1845588146 - Field 3616387199 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Usage Tier 2</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Käyttötaso 2</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Charging Fee - Field usageTier2 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1845588146 - Field 4254083816 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Usage Tier 3</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Käyttötaso 3</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Charging Fee - Field usageTier3 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1845588146 - Field 3147599605 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Usage Tier 4</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Käyttötaso 4</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Charging Fee - Field usageTier4 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2135739091 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Tesla Charging Invoice</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">ain. veloituslasku</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Charging Invoice - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2135739091 - Field 233439864 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Content ID</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Sisällön tunnus</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Charging Invoice - Field contentId - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2135739091 - Field 4179522451 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>File Name</source>
+          <target state="translated" state-qualifier="exact-match">Tiedostonimi</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Charging Invoice - Field fileName - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2135739091 - Field 71496203 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Invoice Type</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Laskutyyppi</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Charging Invoice - Field invoiceType - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2135739091 - Field 454014235 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>VIN</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">VIN</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Charging Invoice - Field vin - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 193980842 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Tesla Charging Session</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Saanen veloittaa istunnon</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Charging Session - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 193980842 - Method 4254995385 - NamedType 3282940793" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Importing charging sessions for %1</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Tuodaan veloitusistuntoja kohteelle %1</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Charging Session - Method GetChargingSessionsForVehicle - NamedType ImportInvoicesTok</note>
+        </trans-unit>
+        <trans-unit id="Table 193980842 - Field 3111983757 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Billing Type</source>
+          <target state="needs-review-translation" state-qualifier="x-mt-cache">Laskutustyyppi</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Charging Session - Field billingType - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 193980842 - Field 2183298253 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Cabinet Id</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Kaapin tunnus</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Charging Session - Field cabinetId - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 193980842 - Field 2194510243 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Charge Session Id</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Veloitusistunnon tunnus</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Charging Session - Field chargeSessionId - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 193980842 - Field 575522557 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Charge Start Date Time</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Veloituksen aloituspäivämäärä ja -aika</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Charging Session - Field chargeStartDateTime - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 193980842 - Field 2565887853 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Charge Stop Date Time</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Veloituksen lopetuspäivämäärä ja -aika</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Charging Session - Field chargeStopDateTime - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 193980842 - Field 644535959 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Charging Package</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Veloituspaketti</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Charging Session - Field chargingPackage - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 193980842 - Field 2715004511 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Country Code</source>
+          <target state="translated" state-qualifier="exact-match">Maakoodi</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Charging Session - Field countryCode - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 193980842 - Field 4161660359 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Credit</source>
+          <target state="translated" state-qualifier="exact-match">Kredit</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Charging Session - Field credit - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 193980842 - Field 2510217661 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>DIN</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">DIN</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Charging Session - Field din - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 193980842 - Field 1294430959 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Fees</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Maksuja</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Charging Session - Field fees - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 193980842 - Field 2388694926 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Invoices</source>
+          <target state="translated" state-qualifier="exact-match">Laskut</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Charging Session - Field invoices - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 193980842 - Field 2897918103 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Post Id</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Kirjaa tunnus</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Charging Session - Field postId - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 193980842 - Field 965236864 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Program Type</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Ohjelman tyyppi</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Charging Session - Field programType - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 193980842 - Field 1891695285 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Session Id</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Istuntotunnus</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Charging Session - Field sessionId - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 193980842 - Field 2488421579 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Site Location Name</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Sivuston sijainnin nimi</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Charging Session - Field siteLocationName - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 193980842 - Field 3324308301 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Survey Completed</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Valmis, Valmiiden määrit</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Charging Session - Field surveyCompleted - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 193980842 - Field 3726538050 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Survey Type</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Jannuksen tyyppi</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Charging Session - Field surveyType - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 193980842 - Field 3320538540 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Unlatch Date Time</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Unla vanhentumispäivämäärä ja -aika</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Charging Session - Field unlatchDateTime - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 193980842 - Field 139119086 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Vehicle Make Type</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Ajoneuvon teetyyppi</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Charging Session - Field vehicleMakeType - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 193980842 - Field 454014235 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>VIN</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">VIN</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Charging Session - Field vin - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1595350555 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Tesla Command Result</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">KomentoKeskuksen tulos</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Command Result - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1595350555 - Field 3641927271 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>ID</source>
+          <target state="translated" state-qualifier="exact-match">Tunnus</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Command Result - Field ID - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1595350555 - Field 903647472 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>reason</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Syy</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Command Result - Field reason - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1595350555 - Field 858848667 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>result</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Tulos</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Command Result - Field result - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2317390121 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Tesla Vehicle</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Kulkuneuvo, Kulkuneuvo</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Vehicle - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2317390121 - Field 1626378269 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Access Type</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Käyttöoikeustyyppi</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Vehicle - Field access_type - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2317390121 - Field 2715175111 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>API Version</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">API-versio</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Vehicle - Field api_version - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2317390121 - Field 2954897864 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Backseat Token</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Takavar.tunnuksen</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Vehicle - Field backseat_token - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2317390121 - Field 513549072 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Backseat Token Updated At</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Backseat-tunnus päivitetty</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Vehicle - Field backseat_token_updated_at - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2317390121 - Field 2688474619 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>BLE Autopair Enrolled</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">BLE:n autopair, sälytetty</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Vehicle - Field ble_autopair_enrolled - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2317390121 - Field 1864738876 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Calendar Enabled</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Kalenteri käytössä</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Vehicle - Field calendar_enabled - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2317390121 - Field 2043639095 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Color</source>
+          <target state="needs-review-translation" state-qualifier="x-mt-cache">Väri</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Vehicle - Field color - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2317390121 - Field 3279212590 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Display Name</source>
+          <target state="translated" state-qualifier="exact-match">Näyttönimi</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Vehicle - Field display_name - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2317390121 - Field 2686962215 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>ID</source>
+          <target state="translated" state-qualifier="exact-match">Tunnus</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Vehicle - Field id - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2317390121 - Field 2545722651 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>API ID</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">API-tunnus</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Vehicle - Field id_s - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2317390121 - Field 1636458359 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>In Service</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Huolt.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Vehicle - Field in_service - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2317390121 - Field 3018581806 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Option Codes</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Asetuskoodit</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Vehicle - Field option_codes - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2317390121 - Field 1405163793 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>State</source>
+          <target state="translated" state-qualifier="exact-match">Tila</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Vehicle - Field state - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2317390121 - Field 3656661606 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Vehicle ID</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Ajoneuvon tunnus</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Vehicle - Field vehicle_id - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2317390121 - Field 454014235 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>VIN</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">VIN</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Vehicle - Field vin - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 933364199 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Tesla Vehicle Media Info</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Kulkuneuvon Media Info</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Vehicle Media Info - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 933364199 - Field 903818871 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>A2DP Source Name</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">A2DP-lähteen nimi</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Vehicle Media Info - Field a2dp_source_name - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 933364199 - Field 3983305091 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Audio Volume</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Äänitilavuus</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Vehicle Media Info - Field audio_volume - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 933364199 - Field 3125392441 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Audio Volume Increment</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Äänitilavuuden lisäys</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Vehicle Media Info - Field audio_volume_increment - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 933364199 - Field 1582232182 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Audio Volume Max</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Äänitilavuus enintään</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Vehicle Media Info - Field audio_volume_max - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 933364199 - Field 3641927271 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>ID</source>
+          <target state="translated" state-qualifier="exact-match">Tunnus</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Vehicle Media Info - Field ID - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 933364199 - Field 3267108433 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Media Playback Status</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Median toiston tila</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Vehicle Media Info - Field media_playback_status - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 933364199 - Field 1170150951 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Now Playing Album</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Nyt käänt. Jan, ain.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Vehicle Media Info - Field now_playing_album - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 933364199 - Field 2931352389 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Now Playing Artist</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Nyt käänt. Saareskons.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Vehicle Media Info - Field now_playing_artist - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 933364199 - Field 1955759536 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Now Playing Duration</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Nyt keston kesto</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Vehicle Media Info - Field now_playing_duration - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 933364199 - Field 2825793580 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Now Playing Elapsed</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Nyt kulunut</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Vehicle Media Info - Field now_playing_elapsed - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 933364199 - Field 2672486313 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Now Playing Source</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Nyt käyt. lähde</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Vehicle Media Info - Field now_playing_source - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 933364199 - Field 3118020284 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Now Playing Station</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Nyt käytt. as.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Vehicle Media Info - Field now_playing_station - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 933364199 - Field 821214630 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Now Playing Title</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Nyt käytt. otsikkoa</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Vehicle Media Info - Field now_playing_title - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2447750048 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Tesla Vehicle Media State</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Kulkuneuvon mediatila</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Vehicle Media State - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2447750048 - Field 3641927271 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>ID</source>
+          <target state="translated" state-qualifier="exact-match">Tunnus</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Vehicle Media State - Field ID - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2447750048 - Field 4288932946 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Remote Control Enabled</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Etäohjaus käytössä</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Vehicle Media State - Field remote_control_enabled - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2938253779 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Tesla Vehicle Software Update</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Vehicle-ohjelmistopäivitys, Ohjelmistopäivitys</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Vehicle Software Update - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2938253779 - Field 251311001 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Download Percentage</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Lataa prosentti</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Vehicle Software Update - Field download_perc - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2938253779 - Field 2586935071 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Expected Duration (sec)</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Oletettu kesto (s)</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Vehicle Software Update - Field expected_duration_sec - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2938253779 - Field 3641927271 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>ID</source>
+          <target state="translated" state-qualifier="exact-match">Tunnus</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Vehicle Software Update - Field ID - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2938253779 - Field 3002348150 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Install Percentage</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Asennusprosentti</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Vehicle Software Update - Field install_perc - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2938253779 - Field 998393528 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Status</source>
+          <target state="translated" state-qualifier="exact-match">Tila</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Vehicle Software Update - Field status - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2938253779 - Field 942171326 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Version</source>
+          <target state="translated" state-qualifier="exact-match">Versio</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Vehicle Software Update - Field version - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3597375762 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Tesla Vehicle Speed Limit Mode</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Autokäyttöinen ajoneuvo, nopeusrajan tila</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Vehicle Speed Limit Mode - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3597375762 - Field 641765680 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Active</source>
+          <target state="translated" state-qualifier="exact-match">Aktiivinen</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Vehicle Speed Limit Mode - Field active - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3597375762 - Field 2919271395 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Current Limit</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Nykyinen raja</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Vehicle Speed Limit Mode - Field current_limit_mph - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3597375762 - Field 3641927271 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>ID</source>
+          <target state="translated" state-qualifier="exact-match">Tunnus</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Vehicle Speed Limit Mode - Field ID - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3597375762 - Field 1067222608 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Max Limit</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Enimmäisraja</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Vehicle Speed Limit Mode - Field max_limit_mph - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3597375762 - Field 1505063614 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Min Limit</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Vähimmäisraja</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Vehicle Speed Limit Mode - Field min_limit_mph - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3597375762 - Field 2769699668 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Pin Code Set</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Kiinnitä koodijoukko</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Vehicle Speed Limit Mode - Field pin_code_set - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4209649045 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Tesla Vehicle Status</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Ajoneuvon Tila, Kulkuneuvon tila</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Vehicle Status - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4209649045 - Field 756445987 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Allow Authorized Mobile Devices Only</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Salli vain sallitut mobiililaitteet</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Vehicle Status - Field allow_authorized_mobile_devices_only - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4209649045 - Field 2715175111 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>API Version</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">API-versio</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Vehicle Status - Field api_version - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4209649045 - Field 1800328368 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Autopark State V2</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Autoauton tila V2</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Vehicle Status - Field autopark_state_v2 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4209649045 - Field 923033749 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Calendar Supported</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Kalenteri tuettu</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Vehicle Status - Field calendar_supported - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4209649045 - Field 4248179527 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Car Version</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Autoversio</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Vehicle Status - Field car_version - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4209649045 - Field 3776979906 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Center Display State</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Keskuksen näyttötila</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Vehicle Status - Field center_display_state - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4209649045 - Field 4186296612 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Dashcam Clip Save Available</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Saad. tilas. saajaksi Saad.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Vehicle Status - Field dashcam_clip_save_available - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4209649045 - Field 1020320099 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Dashcam State</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Iskustannuksen osavaltio</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Vehicle Status - Field dashcam_state - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4209649045 - Field 2858015878 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>df</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Df</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Vehicle Status - Field df - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4209649045 - Field 1920440690 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>dr</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Dr</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Vehicle Status - Field dr - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4209649045 - Field 2619589427 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Front Driver Window</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Etuohjaimen ikkuna</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Vehicle Status - Field fd_window - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4209649045 - Field 2882872292 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Feature Bitmask</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Ominaisuuden bittikartan koko</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Vehicle Status - Field feature_bitmask - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4209649045 - Field 1616349695 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Front Passanger Window</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Front Passanger -ikkuna</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Vehicle Status - Field fp_window - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4209649045 - Field 2638777030 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Front Trunk</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Etukonst.nä</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Vehicle Status - Field ft - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4209649045 - Field 1964861248 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Homelink Device Count</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Kotisivunlinkin laitemäärä</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Vehicle Status - Field homelink_device_count - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4209649045 - Field 9925853 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Homelink Nearby</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Kotisivunlinkin ain. ain.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Vehicle Status - Field homelink_nearby - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4209649045 - Field 3641927271 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>ID</source>
+          <target state="translated" state-qualifier="exact-match">Tunnus</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Vehicle Status - Field ID - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4209649045 - Field 2517800292 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Is User Present</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">On käyttäjänä oleminen</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Vehicle Status - Field is_user_present - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4209649045 - Field 1997149118 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>locked</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Lukittu</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Vehicle Status - Field locked - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4209649045 - Field 2368271983 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Media Info</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Mediatiedot</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Vehicle Status - Field media_info - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4209649045 - Field 3544921848 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Media State</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Median tila</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Vehicle Status - Field media_state - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4209649045 - Field 2988590825 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Notifications Supported</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Ilmoitukset tuettu</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Vehicle Status - Field notifications_supported - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4209649045 - Field 127964193 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Odometer</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Matkamittari</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Vehicle Status - Field odometer - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4209649045 - Field 2326908207 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Parsed Calendar Supported</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Jäsennys kalenteri tuettu</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Vehicle Status - Field parsed_calendar_supported - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4209649045 - Field 1025268818 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>pf</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Pf</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Vehicle Status - Field pf - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4209649045 - Field 1962844006 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>pr</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Pr</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Vehicle Status - Field pr - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4209649045 - Field 337759039 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Reard Driver Window</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Reard-ohjaimen ikkuna</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Vehicle Status - Field rd_window - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4209649045 - Field 593417189 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Remote Start</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Etäkäynnistys</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Vehicle Status - Field remote_start - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4209649045 - Field 1365328763 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Remote Start Enabled</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Etäkäynnistys käytössä</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Vehicle Status - Field remote_start_enabled - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4209649045 - Field 2444617958 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Remote Start Supported</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Etäkäynnistys tuettu</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Vehicle Status - Field remote_start_supported - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4209649045 - Field 4111641971 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Reard Passanger Window</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Reard Passanger -ikkuna</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Vehicle Status - Field rp_window - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4209649045 - Field 1916151410 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Reard Trunk</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Reard-ain.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Vehicle Status - Field rt - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4209649045 - Field 4214489791 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Santa Mode</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Käyttötila</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Vehicle Status - Field santa_mode - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4209649045 - Field 3604454325 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Sentry Mode</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Tunnistustila</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Vehicle Status - Field sentry_mode - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4209649045 - Field 3836474823 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Sentry Mode Available</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Tunnistustila käytettävissä</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Vehicle Status - Field sentry_mode_available - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4209649045 - Field 1732152299 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Service Mode</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Huoltotila</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Vehicle Status - Field service_mode - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4209649045 - Field 3699320232 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Service Mode Plus</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Huoltotila plus</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Vehicle Status - Field service_mode_plus - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4209649045 - Field 49507459 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Software Update</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Ohjelmistopäivitys</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Vehicle Status - Field software_update - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4209649045 - Field 3428372075 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Speed Limit Mode</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Nopeusrajatila</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Vehicle Status - Field speed_limit_mode - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4209649045 - Field 3354178634 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Timestamp</source>
+          <target state="needs-review-translation" state-qualifier="x-mt-cache">Aikaleima</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Vehicle Status - Field timestamp - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4209649045 - Field 15692702 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>TPMS Hard Warning FL</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">TPMS-kiintolevyvaroitus FL</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Vehicle Status - Field tpms_hard_warning_fl - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4209649045 - Field 2904297216 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>TPMS Hard Warning FR</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">TPM:t, kiintolevyvaroitus, FR</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Vehicle Status - Field tpms_hard_warning_fr - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4209649045 - Field 248032138 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>TPMS Hard Warning RL</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Kiintolevyvaroitus, RL</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Vehicle Status - Field tpms_hard_warning_rl - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4209649045 - Field 716819732 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>TPMS Hard Warning RR</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">TPMS-kiintolevyvaroitus UKSIEN</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Vehicle Status - Field tpms_hard_warning_rr - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4209649045 - Field 2417384508 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>TPMS Last Seen Pressure Time FL</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">TPMS viimeksi havaittu paineen aika FL</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Vehicle Status - Field tpms_last_seen_pressure_time_fl - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4209649045 - Field 335385634 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>TPMS Last Seen Pressure Time FR</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">TPMS viimeksi havaittu paineen aika FR</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Vehicle Status - Field tpms_last_seen_pressure_time_fr - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4209649045 - Field 491846120 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>TPMS Last Seen Pressure Time RL</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">TPMS viimeksi havaittu paineen aika RL</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Vehicle Status - Field tpms_last_seen_pressure_time_rl - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4209649045 - Field 2442875446 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>TPMS Last Seen Pressure Time RR</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">TPMS viimeksi nähty paineen aika  ONKO</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Vehicle Status - Field tpms_last_seen_pressure_time_rr - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4209649045 - Field 916008527 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>TPMS Pressure FL</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">TPM-paineen FL</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Vehicle Status - Field tpms_pressure_fl - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4209649045 - Field 3935582589 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>TPMS Pressure FR</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">TPM-paineen FR</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Vehicle Status - Field tpms_pressure_fr - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4209649045 - Field 2748755587 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>TPMS Pressure RL</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">TPM-paineen RL</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Vehicle Status - Field tpms_pressure_rl - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4209649045 - Field 3893179273 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>TPMS Pressure RR</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">TPMS-paineen URI</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Vehicle Status - Field tpms_pressure_rr - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4209649045 - Field 261990834 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>TPMS RCP Front Value</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">TPMS-vastaanoton etuarvo</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Vehicle Status - Field tpms_rcp_front_value - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4209649045 - Field 3461947429 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>TPMS RCP Rear Value</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">TPMS-vastaanoton taka-arvo</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Vehicle Status - Field tpms_rcp_rear_value - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4209649045 - Field 4013849701 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>TPMS Soft Warning FL</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">TPMS-pehmennysvaroitus FL</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Vehicle Status - Field tpms_soft_warning_fl - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4209649045 - Field 3676031655 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>TPMS Soft Warning FR</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">TPMS-pehmennysvaroitus, FR</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Vehicle Status - Field tpms_soft_warning_fr - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4209649045 - Field 23224817 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>TPMS Soft Warning RL</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">TPMS-pehmennysvaroitus RL</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Vehicle Status - Field tpms_soft_warning_rl - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4209649045 - Field 3718434971 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>TPMS Soft Warning RR</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">TPMS-pehmennysvaroitus RHS</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Vehicle Status - Field tpms_soft_warning_rr - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4209649045 - Field 4255822122 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Valet Mode</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Saap. tila</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Vehicle Status - Field valet_mode - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4209649045 - Field 1056262306 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Valet Pin Needed</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Jan Val.tut. val.tunn.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Vehicle Status - Field valet_pin_needed - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4209649045 - Field 659300476 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Vehicle Name</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Ajoneuvon nimi</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Vehicle Status - Field vehicle_name - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4209649045 - Field 4257204203 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Webcam Available</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Webvideo käytettävissä</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Vehicle Status - Field webcam_available - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 861187650 - NamedType 1519591242" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The specified variant type is not valid.</source>
+          <target state="translated" state-qualifier="exact-match">Määritetty varianttityyppi ei kelpaa.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Tesla Activity Log Mgt. - NamedType DataTypeNotValidErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3722643052 - NamedType 4711059" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Request</source>
+          <target state="translated" state-qualifier="exact-match">Pyyntö</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Tesla API Request Helper - NamedType RequestTok</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3722643052 - NamedType 419890781" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Response</source>
+          <target state="translated" state-qualifier="exact-match">Vastaus</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Tesla API Request Helper - NamedType ResponseTok</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3722643052 - Method 121996279 - NamedType 4294338604" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Error code: %1</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Virhekoodi: %1</target>
+          <note from="Developer" annotates="general" priority="2">%1 = error code</note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Tesla API Request Helper - Method WebServiceError - NamedType ErrorCodeErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 4226117892 - NamedType 2081532769" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Importing rows #1########\\Please wait</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Tuodaan rivejä #1########\\Odota</target>
+          <note from="Developer" annotates="general" priority="2">%1 = no. of records imported</note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Tesla Owner API Helper - NamedType LoadingMsg</note>
+        </trans-unit>
+        <trans-unit id="Page 1239891460 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Tesla Api Setup</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Saap. api-aset.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Tesla API Setup - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1239891460 - Control 1968500126 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Convert To KM field.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Määrittää Muunna kilometriksi -kentän arvon.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Tesla API Setup - Control Convert To KM - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1239891460 - Control 3163706192 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the E-Mail field.</source>
+          <target state="needs-review-translation" state-qualifier="x-mt-cache">Määrittää Sähköposti-kentän arvon.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Tesla API Setup - Control email - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1239891460 - Control 2316906957 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Full Name field.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Määrittää Koko nimi -kentän arvon.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Tesla API Setup - Control full_name - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1239891460 - Control 454980611 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Log Activity field.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Määrittää Lokitoiminto-kentän arvon.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Tesla API Setup - Control Log Activity - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1239891460 - Control 3498817585 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Profile Image Url field.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Määrittää Profiilin kuvan URL -kentän arvon.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Tesla API Setup - Control profile_image_url - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1239891460 - Control 877894020 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Tesla API Access Token field.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Määrittää API:n käyttöoikeustunnus -kentän arvon.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Tesla API Setup - Control Tesla API Access Token - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1239891460 - Action 3511817141 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>View Vehicles</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Näytä ajoneuvot</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Tesla API Setup - Action Vehicles - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1239891460 - Action 3511817141 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Vehicles</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Ajoneuvot</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Tesla API Setup - Action Vehicles - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1239891460 - Action 3665429236 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>View API Activity Log</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Näytä ohjelmointirajapinnan toimintoloki</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Tesla API Setup - Action ViewActivity - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1239891460 - Action 3665429236 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Activity Log</source>
+          <target state="translated" state-qualifier="exact-match">Toimintoloki</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Tesla API Setup - Action ViewActivity - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1239891460 - Action 3596915927 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Executes the Connect to Tesla API action.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Suorittaa Yhdistä Alku-liittymään -toiminnon.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Tesla API Setup - Action ConnectToApi - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1239891460 - Action 3596915927 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Connect to Tesla API</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Yhdistä Autos-ohjelmointirajapintaan</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Tesla API Setup - Action ConnectToApi - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 802340543 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Tesla Charging Fees</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Palvelumaksut, veloit. veloitus</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Tesla Charging Fees - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 802340543 - Control 1808640270 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Currency Code field.</source>
+          <target state="needs-review-translation" state-qualifier="x-mt-cache">Määrittää Valuutan koodi -kentän arvon.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Tesla Charging Fees - Control currencyCode - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 802340543 - Control 588170490 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Fee Type field.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Määrittää Maksutyyppi-kentän arvon.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Tesla Charging Fees - Control feeType - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 802340543 - Control 568264562 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Is Paid field.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Määrittää On maksettu -kentän arvon.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Tesla Charging Fees - Control isPaid - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 802340543 - Control 2501286929 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Rate Base field.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Määrittää Prosenttiperuste-kentän arvon.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Tesla Charging Fees - Control rateBase - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 802340543 - Control 998393528 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Status field.</source>
+          <target state="needs-review-translation" state-qualifier="x-mt-cache">Määrittää Tila-kentän arvon.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Tesla Charging Fees - Control status - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 802340543 - Control 2008009673 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Total Base field.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Määrittää Yhteensä perus -kentän arvon.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Tesla Charging Fees - Control totalBase - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 802340543 - Control 899894313 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Unit of Measure field.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Määrittää Mittayksikkö-kentän arvon.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Tesla Charging Fees - Control uom - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 802340543 - Control 3721978516 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Usage Base field.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Määrittää Käyttöperuste-kentän arvon.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Tesla Charging Fees - Control usageBase - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 778089598 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Tesla Charging Invoices</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">ain. veloituslaskut</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Tesla Charging Invoices - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 778089598 - Control 233439864 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Content ID field.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Määrittää Sisällön tunnus -kentän arvon.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Tesla Charging Invoices - Control contentId - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 778089598 - Control 4179522451 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the File Name field.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Määrittää Tiedoston nimi -kentän arvon.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Tesla Charging Invoices - Control fileName - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 778089598 - Control 71496203 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Invoice Type field.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Määrittää Laskutyyppi-kentän arvon.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Tesla Charging Invoices - Control invoiceType - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 778089598 - Action 1633900327 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Create an incoming document from the selected invoice.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Luo saapuva asiakirja valitusta laskusta.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Tesla Charging Invoices - Action CreateIncomingDocument - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 778089598 - Action 1633900327 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Create Incoming Document</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Luo saapuva asiakirja</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Tesla Charging Invoices - Action CreateIncomingDocument - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 778089598 - Action 593408208 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Download the selected invoice.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Lataa valittu lasku.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Tesla Charging Invoices - Action Download - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 778089598 - Action 593408208 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Download</source>
+          <target state="translated" state-qualifier="exact-match">Lataa</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Tesla Charging Invoices - Action Download - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2889933038 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Tesla Charging Session Card</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Carden veloitusistunnon kortti</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Tesla Charging Session Card - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2889933038 - Control 1439501071 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Fees</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Maksuja</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Tesla Charging Session Card - Control Fees - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2889933038 - Control 2445482498 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>General</source>
+          <target state="translated" state-qualifier="exact-match">Yleinen</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Tesla Charging Session Card - Control General - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2889933038 - Control 2194510243 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Charge Session Id field.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Määrittää Kulu-istunnon tunnus -kentän arvon.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Tesla Charging Session Card - Control chargeSessionId - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2889933038 - Control 575522557 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Charge Start Date Time field.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Määrittää Kulun aloituspvm ja -aika -kentän arvon.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Tesla Charging Session Card - Control chargeStartDateTime - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2889933038 - Control 644535959 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Charging Package field.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Määrittää Veloituspaketti-kentän arvon.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Tesla Charging Session Card - Control chargingPackage - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2889933038 - Control 2715004511 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Country Code field.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Määrittää Maakoodi-kentän arvon.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Tesla Charging Session Card - Control countryCode - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2889933038 - Control 2488421579 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Site Location Name field.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Määrittää Sivuston sijainnin nimi -kentän arvon.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Tesla Charging Session Card - Control siteLocationName - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2889933038 - Control 139119086 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Vehicle Make Type field.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Määrittää Ajoneuvon tee tyyppi -kentän arvon.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Tesla Charging Session Card - Control vehicleMakeType - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2889933038 - Control 454014235 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the VIN field.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">MäärittääSUHDE-kentän arvon.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Tesla Charging Session Card - Control vin - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2889933038 - Control 502423214 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Invoices</source>
+          <target state="translated" state-qualifier="exact-match">Laskut</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Tesla Charging Session Card - Control Invoices - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3925817032 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Tesla Charging Session List</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Auto latauksen istuntoluettelo</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Tesla Charging Session List - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3925817032 - Control 3111983757 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Billing Type field.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Määrittää Laskutustyyppi-kentän arvon.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Tesla Charging Session List - Control billingType - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3925817032 - Control 2194510243 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Charge Session Id field.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Määrittää Kulu-istunnon tunnus -kentän arvon.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Tesla Charging Session List - Control chargeSessionId - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3925817032 - Control 575522557 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Charge Start Date Time field.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Määrittää Kulun aloituspvm ja -aika -kentän arvon.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Tesla Charging Session List - Control chargeStartDateTime - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3925817032 - Control 644535959 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Charging Package field.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Määrittää Veloituspaketti-kentän arvon.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Tesla Charging Session List - Control chargingPackage - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3925817032 - Control 2715004511 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Country Code field.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Määrittää Maakoodi-kentän arvon.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Tesla Charging Session List - Control countryCode - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3925817032 - Control 965236864 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Program Type field.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Määrittää Ohjelman tyyppi -kentän arvon.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Tesla Charging Session List - Control programType - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3925817032 - Control 2488421579 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Site Location Name field.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Määrittää Sivuston sijainnin nimi -kentän arvon.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Tesla Charging Session List - Control siteLocationName - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3925817032 - Control 139119086 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Vehicle Make Type field.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Määrittää Ajoneuvon tee tyyppi -kentän arvon.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Tesla Charging Session List - Control vehicleMakeType - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3925817032 - Control 454014235 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the VIN field.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">MäärittääSUHDE-kentän arvon.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Tesla Charging Session List - Control vin - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3925817032 - Action 169369755 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Download the charging sessions from Tesla.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Lataa veloitusistunnotUros-sopimuksesta.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Tesla Charging Session List - Action DownloadSessions - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3925817032 - Action 169369755 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Download Sessions</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Lataa istunnot</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Tesla Charging Session List - Action DownloadSessions - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4141416783 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Tesla Property Factbox</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Käyttöomaisuuserän tietoruutu</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Tesla Property Factbox - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4141416783 - Control 2961552353 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the ID of the Azure Active Directory application that will be used to connect to Exchange.</source>
+          <target state="translated" state-qualifier="exact-match">Määrittää sen Azure Active Directory -sovelluksen tunnuksen, jota käytetään Exchange-yhteyden muodostamiseen.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Tesla Property Factbox - Control Name - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 4141416783 - Control 1131619133 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the GetValue() field.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Määrittää GetValue()-kentän arvon.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Tesla Property Factbox - Control Value - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2346140661 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Tesla Vehicle Card</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Henkilökortti, Kulkuneuvon kortti</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Tesla Vehicle Card - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2346140661 - Control 2445482498 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>General</source>
+          <target state="translated" state-qualifier="exact-match">Yleinen</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Tesla Vehicle Card - Control General - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2346140661 - Control 1626378269 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Access Type field.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Määrittää Käyttöoikeustyyppi-kentän arvon.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Tesla Vehicle Card - Control access_type - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2346140661 - Control 2715175111 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the API Version field.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Määrittää API-versio-kentän arvon.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Tesla Vehicle Card - Control api_version - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2346140661 - Control 1864738876 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Calendar Enabled field.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Määrittää Kalenteri käytössä -kentän arvon.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Tesla Vehicle Card - Control calendar_enabled - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2346140661 - Control 3279212590 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Display Name field.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Määrittää Näyttönimi-kentän arvon.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Tesla Vehicle Card - Control display_name - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2346140661 - Control 2686962215 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the ID field.</source>
+          <target state="needs-review-translation" state-qualifier="x-mt-cache">Määrittää tunnuskentän arvon.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Tesla Vehicle Card - Control id - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2346140661 - Control 1636458359 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the In Service field.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Määrittää Huollessa-kentän arvon.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Tesla Vehicle Card - Control in_service - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2346140661 - Control 1405163793 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the State field.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Määrittää Tila-kentän arvon.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Tesla Vehicle Card - Control state - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2346140661 - Control 454014235 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the VIN field.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">MäärittääSUHDE-kentän arvon.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Tesla Vehicle Card - Control vin - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2346140661 - Control 513339096 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Status</source>
+          <target state="translated" state-qualifier="exact-match">Tila</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Tesla Vehicle Card - Control Status - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2346140661 - Control 4248179527 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Car Version field.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Määrittää Autoversio-kentän arvon.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Tesla Vehicle Card - Control car_version - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2346140661 - Control 4248179527 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Car Version</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Autoversio</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Tesla Vehicle Card - Control car_version - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2346140661 - Control 1020320099 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Dashcam State field.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">MäärittääToimipaikan tila -kentän arvon.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Tesla Vehicle Card - Control dashcam_state - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2346140661 - Control 1020320099 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Dashcam State</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Iskustannuksen osavaltio</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Tesla Vehicle Card - Control dashcam_state - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2346140661 - Control 1997149118 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Locked field.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Määrittää Lukittu-kentän arvon.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Tesla Vehicle Card - Control locked - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2346140661 - Control 1997149118 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Locked</source>
+          <target state="translated" state-qualifier="exact-match">Lukittu</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Tesla Vehicle Card - Control locked - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2346140661 - Control 127964193 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Odometer field.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">MäärittääToimitus-kentän arvon.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Tesla Vehicle Card - Control odometer - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2346140661 - Control 127964193 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Odometer</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Matkamittari</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Tesla Vehicle Card - Control odometer - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2346140661 - Control 3604454325 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Sentry Mode field.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Määrittää Sentry Mode -kentän arvon.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Tesla Vehicle Card - Control sentry_mode - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2346140661 - Control 3604454325 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Sentry Mode</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Tunnistustila</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Tesla Vehicle Card - Control sentry_mode - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2346140661 - Control 4013849701 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Tire Pressure Monitoring System Soft Warning Front Left field.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Määrittää Rengas-paineenseurantajärjestelmän Pehmennysvaroitus etuvasemm. -kentän arvon.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Tesla Vehicle Card - Control tpms_soft_warning_fl - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2346140661 - Control 4013849701 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>TPMS Soft Warning FL</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">TPMS-pehmennysvaroitus FL</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Tesla Vehicle Card - Control tpms_soft_warning_fl - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2346140661 - Control 3676031655 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Tire Pressure Monitoring System Soft Warning Front Right field.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Määrittää rengasp. paineenseurantajärjestelmän pehmennysvaroitus etupuolella -kentän arvon.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Tesla Vehicle Card - Control tpms_soft_warning_fr - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2346140661 - Control 3676031655 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>TPMS Soft Warning FR</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">TPMS-pehmennysvaroitus, FR</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Tesla Vehicle Card - Control tpms_soft_warning_fr - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2346140661 - Control 23224817 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Tire Pressure Monitoring System Soft Warning Rear Left field.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Määrittää Rengasp. paineenseurantajärjestelmän Pehmennysvaroitus vasen -kentän arvon.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Tesla Vehicle Card - Control tpms_soft_warning_rl - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2346140661 - Control 23224817 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>TPMS Soft Warning RL</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">TPMS-pehmennysvaroitus RL</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Tesla Vehicle Card - Control tpms_soft_warning_rl - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2346140661 - Control 3718434971 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Tire Pressure Monitoring System Soft Warning Rear Right field.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Määrittää Rengasp. paineenseurantajärjestelmä Soft Warning Takap. -kentän arvon.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Tesla Vehicle Card - Control tpms_soft_warning_rr - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2346140661 - Control 3718434971 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>TPMS Soft Warning RR</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">TPMS-pehmennysvaroitus RHS</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Tesla Vehicle Card - Control tpms_soft_warning_rr - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2346140661 - Control 4255822122 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Valet Mode field.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">MäärittääToimitustila-kentän arvon.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Tesla Vehicle Card - Control valet_mode - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2346140661 - Control 4255822122 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Valet Mode</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Saap. tila</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Tesla Vehicle Card - Control valet_mode - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2346140661 - Control 2305248559 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Option Codes</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Asetuskoodit</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Tesla Vehicle Card - Control OptionCodes - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2346140661 - Action 4138227190 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>View charging Sessions for the vehicle.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Näytä ajoneuvon latausistunnot.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Tesla Vehicle Card - Action ChargingSessions - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2346140661 - Action 4138227190 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Charging Sessions</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Veloitusistunnot</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Tesla Vehicle Card - Action ChargingSessions - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2346140661 - Action 563719171 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Honk the horn.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Kiinn. arv., lyh.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Tesla Vehicle Card - Action HonkHorn - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2346140661 - Action 563719171 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Honk Horn</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Iskustantti Lyh.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Tesla Vehicle Card - Action HonkHorn - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2346140661 - Action 2144283875 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Refresh the vehicle status.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Päivitä ajoneuvon tila.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Tesla Vehicle Card - Action RefreshStatus - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2346140661 - Action 2144283875 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Refresh Status</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Päivitä tila</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Tesla Vehicle Card - Action RefreshStatus - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2346140661 - Action 112428567 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Wake Up the vehicle.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Vyörytä ajoneuvo.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Tesla Vehicle Card - Action WakeUp - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2346140661 - Action 112428567 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Wake Up</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Herätys</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Tesla Vehicle Card - Action WakeUp - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2393408287 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Tesla Vehicle List</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Kulkuneuvoluettelo, Kulkuneuvoluettelo</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Tesla Vehicle List - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2393408287 - Control 3279212590 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Display Name field.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Määrittää Näyttönimi-kentän arvon.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Tesla Vehicle List - Control display_name - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2393408287 - Control 2686962215 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the ID field.</source>
+          <target state="needs-review-translation" state-qualifier="x-mt-cache">Määrittää tunnuskentän arvon.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Tesla Vehicle List - Control id - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2393408287 - Control 1636458359 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the In Service field.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Määrittää Huollessa-kentän arvon.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Tesla Vehicle List - Control in_service - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2393408287 - Control 1405163793 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the State field.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Määrittää Tila-kentän arvon.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Tesla Vehicle List - Control state - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2393408287 - Control 454014235 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the VIN field.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">MäärittääSUHDE-kentän arvon.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Tesla Vehicle List - Control vin - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2393408287 - Action 112428567 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Wake Up the selected vehicles.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Vyörytä valitut ajoneuvot.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Tesla Vehicle List - Action WakeUp - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2393408287 - Action 112428567 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Wake Up</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Herätys</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Tesla Vehicle List - Action WakeUp - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PermissionSet 2736975808 - Property 2879900210" maxwidth="30" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Tesla API Full</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Valtaisen API:n täydet</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">PermissionSet Tesla API Full - Property Caption</note>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

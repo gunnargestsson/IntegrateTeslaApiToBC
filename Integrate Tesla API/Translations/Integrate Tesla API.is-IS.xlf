@@ -1,0 +1,1975 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" target-language="is-IS" original="Integrate Tesla API.g.xlf">
+    <body>
+      <group id="body">
+        <trans-unit id="Table 1180085934 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Tesla API Flow Control</source>
+          <target state="translated">Tesla API-flæðistýring</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla API Flow Control - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1180085934 - Method 3584695359 - NamedType 1340069650" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%1 Minutes, %2 Seconds</source>
+          <target state="translated">%1 mínútur, %2 sekúndur</target>
+          <note from="Developer" annotates="general" priority="2">%1 = Minutes passed ; %2 = Seconds Passed</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla API Flow Control - Method FormatDuration - NamedType MinuteAndSecondsTxt</note>
+        </trans-unit>
+        <trans-unit id="Table 1180085934 - Method 3584695359 - NamedType 125480061" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%1 Seconds</source>
+          <target state="translated">%1 sekúndur</target>
+          <note from="Developer" annotates="general" priority="2">%1 = Seconds Passed</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla API Flow Control - Method FormatDuration - NamedType SecondsTxt</note>
+        </trans-unit>
+        <trans-unit id="Table 1180085934 - Method 852721116 - NamedType 4272052785" size-unit="char" translate="yes" xml:space="preserve">
+          <source>\\Elapsed time :.................. #21#############</source>
+          <target state="translated">\\Liðinn tími :............... #21#############</target>
+          <note from="Developer" annotates="general" priority="2">%21 = Elapsed Time</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla API Flow Control - Method OpenWindow - NamedType ElapsedTimeTxt</note>
+        </trans-unit>
+        <trans-unit id="Table 1180085934 - Method 852721116 - NamedType 2003151124" size-unit="char" translate="yes" xml:space="preserve">
+          <source>\Estimated end time :..... #23#############</source>
+          <target state="translated">\Áætlaður lokatími :..... #23#############</target>
+          <note from="Developer" annotates="general" priority="2">%23 = Calculated End Time</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla API Flow Control - Method OpenWindow - NamedType EstimatedEndTimeTxt</note>
+        </trans-unit>
+        <trans-unit id="Table 1180085934 - Method 852721116 - NamedType 2138510024" size-unit="char" translate="yes" xml:space="preserve">
+          <source>\Estimated time left :...... #22#############</source>
+          <target state="translated">\Áætlaður tími til vinstri :...... #22#############</target>
+          <note from="Developer" annotates="general" priority="2">%22 = Estimated time left</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla API Flow Control - Method OpenWindow - NamedType EstimatedTimeLeftTxt</note>
+        </trans-unit>
+        <trans-unit id="Table 1180085934 - Method 1551467728 - NamedType 1980850096" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%1 %2%3</source>
+          <target state="translated">%1 %2%3</target>
+          <note from="Developer" annotates="general" priority="2">%1 = First Half of Progress Bar; %2 Percentage Text; %3 Second Half of Progress Bar </note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla API Flow Control - Method ProgressBar - NamedType ProgressBarTxt</note>
+        </trans-unit>
+        <trans-unit id="Table 1180085934 - Field 3507747450 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Has More Rows</source>
+          <target state="translated">Hefur fleiri línur</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla API Flow Control - Field Has More Rows - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1180085934 - Field 3641927271 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>ID</source>
+          <target state="translated" state-qualifier="exact-match">Kenni</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla API Flow Control - Field ID - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1180085934 - Field 4030545980 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Page Number</source>
+          <target state="translated">Síðunúmer</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla API Flow Control - Field Page Number - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1180085934 - Field 1544179739 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Row Count</source>
+          <target state="translated">Línufjöldi</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla API Flow Control - Field Row Count - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1180085934 - Field 123039281 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Row Offset</source>
+          <target state="translated">Hliðrun línu</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla API Flow Control - Field Row Offset - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1180085934 - Field 844268572 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Row Total</source>
+          <target state="translated">Samtala línu</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla API Flow Control - Field Row Total - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1239891460 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Tesla API Setup</source>
+          <target state="translated">Uppsetning á Tesla API</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla API Setup - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1239891460 - Field 1968500126 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Convert To KM</source>
+          <target state="translated">Umbreyta í KM</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla API Setup - Field Convert To KM - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1239891460 - Field 3163706192 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>E-Mail</source>
+          <target state="translated" state-qualifier="exact-match">Tölvupóstur</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla API Setup - Field email - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1239891460 - Field 2316906957 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Full Name</source>
+          <target state="translated" state-qualifier="exact-match">Fullt nafn</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla API Setup - Field full_name - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1239891460 - Field 454980611 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Log Activity</source>
+          <target state="translated">Skrá aðgerð</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla API Setup - Field Log Activity - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1239891460 - Field 1663593181 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Primary Key</source>
+          <target state="translated" state-qualifier="exact-match">Aðallykill</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla API Setup - Field Primary Key - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1239891460 - Field 3498817585 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Profile Image Url</source>
+          <target state="translated">Vefslóð forstillingarmyndar</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla API Setup - Field profile_image_url - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1239891460 - Field 877894020 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Tesla API Access Token</source>
+          <target state="translated">Aðgangsmerki Tesla API</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla API Setup - Field Tesla API Access Token - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1239891460 - Field 2583454299 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Tesla API Refresh Token</source>
+          <target state="translated">Endurnýjunartákn fyrir Tesla API</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla API Setup - Field Tesla API Refresh Token - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1845588146 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Tesla Charging Fee</source>
+          <target state="translated">Tesla hleðslugjald</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Charging Fee - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1845588146 - Field 2854441916 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Amount Due</source>
+          <target state="translated">Gjaldf. upphæð</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Charging Fee - Field amountDue - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1845588146 - Field 1808640270 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Currency Code</source>
+          <target state="translated" state-qualifier="exact-match">Gjaldmiðilskóti</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Charging Fee - Field currencyCode - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1845588146 - Field 588170490 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Fee Type</source>
+          <target state="translated">Gjaldategund</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Charging Fee - Field feeType - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1845588146 - Field 568264562 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Is Paid</source>
+          <target state="translated">Er greitt</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Charging Fee - Field isPaid - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1845588146 - Field 2780772285 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Net Due</source>
+          <target state="translated">Nettóskuld</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Charging Fee - Field netDue - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1845588146 - Field 1854665519 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Payor Unique Id</source>
+          <target state="translated">Einkvæmt kenni greiðanda</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Charging Fee - Field payorUid - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1845588146 - Field 3514201860 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Pricing Type</source>
+          <target state="translated" state-qualifier="exact-match">Gerð verðlagningar</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Charging Fee - Field pricingType - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1845588146 - Field 2501286929 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Rate Base</source>
+          <target state="translated">Gjaldstofn</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Charging Fee - Field rateBase - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1845588146 - Field 2592829187 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Rate Tier 1</source>
+          <target state="translated">Gjald lag 1</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">Translated with Xliff Editor</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Charging Fee - Field rateTier1 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1845588146 - Field 210951742 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Rate Tier 2</source>
+          <target state="translated">Gjald lag 2</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">Translated with Xliff Editor</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Charging Fee - Field rateTier2 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1845588146 - Field 3868222421 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Rate Tier 3</source>
+          <target state="translated">Gjald lag 3</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">Translated with Xliff Editor</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Charging Fee - Field rateTier3 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1845588146 - Field 679739336 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Rate Tier 4</source>
+          <target state="translated">Gjald lag 4</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">Translated with Xliff Editor</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Charging Fee - Field rateTier4 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1845588146 - Field 247771103 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Session Fee Id</source>
+          <target state="translated">Kenni lotugjalds</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Charging Fee - Field sessionFeeId - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1845588146 - Field 998393528 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Status</source>
+          <target state="translated" state-qualifier="exact-match">Staða</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Charging Fee - Field status - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1845588146 - Field 2008009673 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Total Base</source>
+          <target state="translated">Heildarstofn</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Charging Fee - Field totalBase - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1845588146 - Field 1008442394 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Total Due</source>
+          <target state="translated">Heildarskuld</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Charging Fee - Field totalDue - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1845588146 - Field 2398760971 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Total Tier 1</source>
+          <target state="translated">Samtals lag 1</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Charging Fee - Field totalTier1 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1845588146 - Field 16883526 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Total Tier 2</source>
+          <target state="translated">Samtals lag 2</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Charging Fee - Field totalTier2 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1845588146 - Field 3674154205 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Total Tier 3</source>
+          <target state="translated">Samtals lag 3</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Charging Fee - Field totalTier3 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1845588146 - Field 485671120 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Total Tier 4</source>
+          <target state="translated">Samtals lag 4</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Charging Fee - Field totalTier4 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1845588146 - Field 4235729644 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Unique Id</source>
+          <target state="translated" state-qualifier="exact-match">Einkvæmt auðkenni</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Charging Fee - Field uid - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1845588146 - Field 899894313 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Unit of Measure</source>
+          <target state="translated" state-qualifier="exact-match">Mælieining</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Charging Fee - Field uom - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1845588146 - Field 3721978516 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Usage Base</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Notkunarstofn</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Charging Fee - Field usageBase - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1845588146 - Field 1234509754 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Usage Tier 1</source>
+          <target state="translated">Notkun lag 1</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Charging Fee - Field usageTier1 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1845588146 - Field 3616387199 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Usage Tier 2</source>
+          <target state="translated">Notkun lag 2</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Charging Fee - Field usageTier2 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1845588146 - Field 4254083816 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Usage Tier 3</source>
+          <target state="translated">Notkun lag 3</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Charging Fee - Field usageTier3 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1845588146 - Field 3147599605 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Usage Tier 4</source>
+          <target state="translated">Notkun lag 4</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Charging Fee - Field usageTier4 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2135739091 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Tesla Charging Invoice</source>
+          <target state="translated">Tesla hleðslureikningur</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Charging Invoice - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2135739091 - Field 233439864 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Content ID</source>
+          <target state="translated">Efnisauðkenni</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Charging Invoice - Field contentId - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2135739091 - Field 4179522451 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>File Name</source>
+          <target state="translated" state-qualifier="exact-match">Skráarheiti</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Charging Invoice - Field fileName - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2135739091 - Field 71496203 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Invoice Type</source>
+          <target state="translated">Tegund reiknings</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Charging Invoice - Field invoiceType - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2135739091 - Field 454014235 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>VIN</source>
+          <target state="translated">Verksmiðjunúmer</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Charging Invoice - Field vin - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 193980842 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Tesla Charging Session</source>
+          <target state="translated">Teslahleðslulota</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Charging Session - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 193980842 - Method 4254995385 - NamedType 3282940793" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Importing charging sessions for %1</source>
+          <target state="translated">Flytur inn hleðslulotur fyrir %1</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Charging Session - Method GetChargingSessionsForVehicle - NamedType ImportInvoicesTok</note>
+        </trans-unit>
+        <trans-unit id="Table 193980842 - Field 3111983757 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Billing Type</source>
+          <target state="translated">Tegund reiknings</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Charging Session - Field billingType - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 193980842 - Field 2183298253 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Cabinet Id</source>
+          <target state="translated">Kenni skáps</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Charging Session - Field cabinetId - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 193980842 - Field 2194510243 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Charge Session Id</source>
+          <target state="translated">Kenni hleðslulotu</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Charging Session - Field chargeSessionId - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 193980842 - Field 575522557 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Charge Start Date Time</source>
+          <target state="translated">Upphafsdags.tími hleðslu</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Charging Session - Field chargeStartDateTime - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 193980842 - Field 2565887853 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Charge Stop Date Time</source>
+          <target state="translated">Dagsetning og tími stöðvunar á hleðslu</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Charging Session - Field chargeStopDateTime - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 193980842 - Field 644535959 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Charging Package</source>
+          <target state="translated">Hleðslupakki</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Charging Session - Field chargingPackage - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 193980842 - Field 2715004511 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Country Code</source>
+          <target state="translated" state-qualifier="exact-match">Landsnúmer</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Charging Session - Field countryCode - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 193980842 - Field 4161660359 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Credit</source>
+          <target state="translated" state-qualifier="exact-match">Kredit</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Charging Session - Field credit - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 193980842 - Field 2510217661 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>DIN</source>
+          <target state="translated">DIN</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Charging Session - Field din - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 193980842 - Field 1294430959 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Fees</source>
+          <target state="translated">Gjöld</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Charging Session - Field fees - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 193980842 - Field 2388694926 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Invoices</source>
+          <target state="translated" state-qualifier="exact-match">Reikningar</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Charging Session - Field invoices - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 193980842 - Field 2897918103 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Post Id</source>
+          <target state="translated">Bókunarkenni</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Charging Session - Field postId - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 193980842 - Field 965236864 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Program Type</source>
+          <target state="translated">Tegund forrits</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Charging Session - Field programType - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 193980842 - Field 1891695285 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Session Id</source>
+          <target state="translated">Auðkenni lotu</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Charging Session - Field sessionId - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 193980842 - Field 2488421579 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Site Location Name</source>
+          <target state="translated">Heiti staðsetningar svæðis</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Charging Session - Field siteLocationName - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 193980842 - Field 3324308301 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Survey Completed</source>
+          <target state="translated">Könnun lokið</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Charging Session - Field surveyCompleted - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 193980842 - Field 3726538050 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Survey Type</source>
+          <target state="translated">Könnunargerð</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Charging Session - Field surveyType - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 193980842 - Field 3320538540 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Unlatch Date Time</source>
+          <target state="translated">Dagsetning og tími aftengt</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Charging Session - Field unlatchDateTime - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 193980842 - Field 139119086 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Vehicle Make Type</source>
+          <target state="translated">Gerð ökutækis</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Charging Session - Field vehicleMakeType - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 193980842 - Field 454014235 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>VIN</source>
+          <target state="translated">Verksmiðjunúmer</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Charging Session - Field vin - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1595350555 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Tesla Command Result</source>
+          <target state="translated">Niðurstaða tesla-skipana</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Command Result - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1595350555 - Field 3641927271 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>ID</source>
+          <target state="translated" state-qualifier="exact-match">Kenni</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Command Result - Field ID - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1595350555 - Field 903647472 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>reason</source>
+          <target state="translated">Ástæða</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Command Result - Field reason - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1595350555 - Field 858848667 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>result</source>
+          <target state="translated">Niðurstöðu</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Command Result - Field result - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2317390121 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Tesla Vehicle</source>
+          <target state="translated">Tesla-ökutæki</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Vehicle - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2317390121 - Field 1626378269 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Access Type</source>
+          <target state="translated">Gerð aðgangs</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Vehicle - Field access_type - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2317390121 - Field 2715175111 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>API Version</source>
+          <target state="translated">API-útgáfa</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Vehicle - Field api_version - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2317390121 - Field 2954897864 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Backseat Token</source>
+          <target state="translated">Aftursvartákn</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Vehicle - Field backseat_token - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2317390121 - Field 513549072 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Backseat Token Updated At</source>
+          <target state="translated">Aftursætistákn uppfært kl.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Vehicle - Field backseat_token_updated_at - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2317390121 - Field 2688474619 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>BLE Autopair Enrolled</source>
+          <target state="translated">BLE-sjálfvirk samtala skráð</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Vehicle - Field ble_autopair_enrolled - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2317390121 - Field 1864738876 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Calendar Enabled</source>
+          <target state="translated">Kveikt á dagatali</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Vehicle - Field calendar_enabled - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2317390121 - Field 2043639095 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Color</source>
+          <target state="translated">Litur</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Vehicle - Field color - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2317390121 - Field 3279212590 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Display Name</source>
+          <target state="translated" state-qualifier="exact-match">Birtingarheiti</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Vehicle - Field display_name - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2317390121 - Field 2686962215 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>ID</source>
+          <target state="translated" state-qualifier="exact-match">Kenni</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Vehicle - Field id - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2317390121 - Field 2545722651 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>API ID</source>
+          <target state="translated">API-kenni</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Vehicle - Field id_s - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2317390121 - Field 1636458359 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>In Service</source>
+          <target state="translated">Í þjónustu</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Vehicle - Field in_service - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2317390121 - Field 3018581806 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Option Codes</source>
+          <target state="translated">Valkostakóðar</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Vehicle - Field option_codes - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2317390121 - Field 1405163793 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>State</source>
+          <target state="translated" state-qualifier="exact-match">Staða</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Vehicle - Field state - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2317390121 - Field 3656661606 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Vehicle ID</source>
+          <target state="translated">Kenni ökutækis</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Vehicle - Field vehicle_id - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2317390121 - Field 454014235 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>VIN</source>
+          <target state="translated">Verksmiðjunúmer</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Vehicle - Field vin - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 933364199 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Tesla Vehicle Media Info</source>
+          <target state="translated">Uppl. um miðlatæki í ökutæki</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Vehicle Media Info - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 933364199 - Field 903818871 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>A2DP Source Name</source>
+          <target state="translated">A2DP-upprunaheiti</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Vehicle Media Info - Field a2dp_source_name - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 933364199 - Field 3983305091 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Audio Volume</source>
+          <target state="translated">Hljóðstyrkur</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Vehicle Media Info - Field audio_volume - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 933364199 - Field 3125392441 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Audio Volume Increment</source>
+          <target state="translated">Stigskipting hljóðstyrks</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Vehicle Media Info - Field audio_volume_increment - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 933364199 - Field 1582232182 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Audio Volume Max</source>
+          <target state="translated">Hámarkstyrkur hljóðs</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Vehicle Media Info - Field audio_volume_max - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 933364199 - Field 3641927271 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>ID</source>
+          <target state="translated" state-qualifier="exact-match">Kenni</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Vehicle Media Info - Field ID - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 933364199 - Field 3267108433 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Media Playback Status</source>
+          <target state="translated">Staða efnislegra spilunar</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Vehicle Media Info - Field media_playback_status - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 933364199 - Field 1170150951 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Now Playing Album</source>
+          <target state="translated">Verið að spila plötu</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Vehicle Media Info - Field now_playing_album - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 933364199 - Field 2931352389 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Now Playing Artist</source>
+          <target state="translated">Verið er að spila flytjanda</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Vehicle Media Info - Field now_playing_artist - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 933364199 - Field 1955759536 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Now Playing Duration</source>
+          <target state="translated">Lengd núna í spilun</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Vehicle Media Info - Field now_playing_duration - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 933364199 - Field 2825793580 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Now Playing Elapsed</source>
+          <target state="translated">Spilar núna liðið</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Vehicle Media Info - Field now_playing_elapsed - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 933364199 - Field 2672486313 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Now Playing Source</source>
+          <target state="translated">Uppruni núna í spilun</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Vehicle Media Info - Field now_playing_source - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 933364199 - Field 3118020284 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Now Playing Station</source>
+          <target state="translated">Verið að spila stöð</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Vehicle Media Info - Field now_playing_station - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 933364199 - Field 821214630 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Now Playing Title</source>
+          <target state="translated">Titilinn sem spilar núna</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Vehicle Media Info - Field now_playing_title - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2447750048 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Tesla Vehicle Media State</source>
+          <target state="translated">Staða tæknilegra spilunartækja</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Vehicle Media State - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2447750048 - Field 3641927271 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>ID</source>
+          <target state="translated" state-qualifier="exact-match">Kenni</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Vehicle Media State - Field ID - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2447750048 - Field 4288932946 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Remote Control Enabled</source>
+          <target state="translated">Fjarstýring virk</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Vehicle Media State - Field remote_control_enabled - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2938253779 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Tesla Vehicle Software Update</source>
+          <target state="translated">Uppfærsla hugbúnaðar fyrir Tesla-ökutæki</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Vehicle Software Update - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2938253779 - Field 251311001 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Download Percentage</source>
+          <target state="translated">Niðurhalsprósenta</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Vehicle Software Update - Field download_perc - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2938253779 - Field 2586935071 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Expected Duration (sec)</source>
+          <target state="translated">Væntanleg tímalengd (sek)</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Vehicle Software Update - Field expected_duration_sec - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2938253779 - Field 3641927271 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>ID</source>
+          <target state="translated" state-qualifier="exact-match">Kenni</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Vehicle Software Update - Field ID - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2938253779 - Field 3002348150 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Install Percentage</source>
+          <target state="translated">Uppsetningarprósenta</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Vehicle Software Update - Field install_perc - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2938253779 - Field 998393528 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Status</source>
+          <target state="translated" state-qualifier="exact-match">Staða</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Vehicle Software Update - Field status - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2938253779 - Field 942171326 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Version</source>
+          <target state="translated" state-qualifier="exact-match">Útgáfa</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Vehicle Software Update - Field version - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3597375762 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Tesla Vehicle Speed Limit Mode</source>
+          <target state="translated">Takmörkunarstilling Tesla ökutækis</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Vehicle Speed Limit Mode - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3597375762 - Field 641765680 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Active</source>
+          <target state="translated" state-qualifier="exact-match">Virkt</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Vehicle Speed Limit Mode - Field active - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3597375762 - Field 2919271395 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Current Limit</source>
+          <target state="translated">Núverandi takmörk</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Vehicle Speed Limit Mode - Field current_limit_mph - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3597375762 - Field 3641927271 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>ID</source>
+          <target state="translated" state-qualifier="exact-match">Kenni</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Vehicle Speed Limit Mode - Field ID - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3597375762 - Field 1067222608 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Max Limit</source>
+          <target state="translated">Hámarkshraði</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Vehicle Speed Limit Mode - Field max_limit_mph - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3597375762 - Field 1505063614 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Min Limit</source>
+          <target state="translated">Lágmarkshraði</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Vehicle Speed Limit Mode - Field min_limit_mph - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3597375762 - Field 2769699668 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Pin Code Set</source>
+          <target state="translated">Festikóðasafn</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Vehicle Speed Limit Mode - Field pin_code_set - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4209649045 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Tesla Vehicle Status</source>
+          <target state="translated">Staða ökutækis</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Vehicle Status - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4209649045 - Field 756445987 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Allow Authorized Mobile Devices Only</source>
+          <target state="translated">Leyfa aðeins heimiluð fartæki</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Vehicle Status - Field allow_authorized_mobile_devices_only - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4209649045 - Field 2715175111 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>API Version</source>
+          <target state="translated">API-útgáfa</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Vehicle Status - Field api_version - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4209649045 - Field 1800328368 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Autopark State V2</source>
+          <target state="translated">Sjálfvirk staða V2</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Vehicle Status - Field autopark_state_v2 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4209649045 - Field 923033749 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Calendar Supported</source>
+          <target state="translated">Dagatal stutt</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Vehicle Status - Field calendar_supported - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4209649045 - Field 4248179527 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Car Version</source>
+          <target state="translated">Bílaútgáfa</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Vehicle Status - Field car_version - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4209649045 - Field 3776979906 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Center Display State</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Staða birtingar á miðju</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Vehicle Status - Field center_display_state - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4209649045 - Field 4186296612 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Dashcam Clip Save Available</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Dashcam-klippivistun tiltæk</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Vehicle Status - Field dashcam_clip_save_available - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4209649045 - Field 1020320099 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Dashcam State</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Dashcam-ríki</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Vehicle Status - Field dashcam_state - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4209649045 - Field 2858015878 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>df</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">df</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Vehicle Status - Field df - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4209649045 - Field 1920440690 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>dr</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Dr</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Vehicle Status - Field dr - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4209649045 - Field 2619589427 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Front Driver Window</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Glugginn Framrekill</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Vehicle Status - Field fd_window - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4209649045 - Field 2882872292 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Feature Bitmask</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Bitamynd eiginleika</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Vehicle Status - Field feature_bitmask - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4209649045 - Field 1616349695 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Front Passanger Window</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Glugginn Framan Passanger</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Vehicle Status - Field fp_window - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4209649045 - Field 2638777030 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Front Trunk</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Framstykki</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Vehicle Status - Field ft - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4209649045 - Field 1964861248 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Homelink Device Count</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Fjöldi heimatengils</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Vehicle Status - Field homelink_device_count - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4209649045 - Field 9925853 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Homelink Nearby</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Heimatenging í nágrenni</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Vehicle Status - Field homelink_nearby - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4209649045 - Field 3641927271 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>ID</source>
+          <target state="translated" state-qualifier="exact-match">Kenni</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Vehicle Status - Field ID - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4209649045 - Field 2517800292 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Is User Present</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Er notanda til staðar</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Vehicle Status - Field is_user_present - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4209649045 - Field 1997149118 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>locked</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Læst</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Vehicle Status - Field locked - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4209649045 - Field 2368271983 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Media Info</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Miðlaupplýsingar</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Vehicle Status - Field media_info - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4209649045 - Field 3544921848 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Media State</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Staða miðla</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Vehicle Status - Field media_state - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4209649045 - Field 2988590825 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Notifications Supported</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Tilkynningar studdar</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Vehicle Status - Field notifications_supported - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4209649045 - Field 127964193 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Odometer</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Odometer</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Vehicle Status - Field odometer - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4209649045 - Field 2326908207 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Parsed Calendar Supported</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Þáttað dagatal stutt</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Vehicle Status - Field parsed_calendar_supported - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4209649045 - Field 1025268818 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>pf</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Pf</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Vehicle Status - Field pf - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4209649045 - Field 1962844006 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>pr</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Pr</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Vehicle Status - Field pr - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4209649045 - Field 337759039 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Reard Driver Window</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Hunsa rekilsglugga</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Vehicle Status - Field rd_window - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4209649045 - Field 593417189 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Remote Start</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Fjartengd ræsing</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Vehicle Status - Field remote_start - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4209649045 - Field 1365328763 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Remote Start Enabled</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Fjartengd ræsing virk</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Vehicle Status - Field remote_start_enabled - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4209649045 - Field 2444617958 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Remote Start Supported</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Fjartengd hefjast studd</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Vehicle Status - Field remote_start_supported - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4209649045 - Field 4111641971 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Reard Passanger Window</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Endurhlaða passanger-glugga</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Vehicle Status - Field rp_window - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4209649045 - Field 1916151410 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Reard Trunk</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Hunsa skott</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Vehicle Status - Field rt - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4209649045 - Field 4214489791 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Santa Mode</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Ræsistilling</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Vehicle Status - Field santa_mode - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4209649045 - Field 3604454325 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Sentry Mode</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Sendingarstilling</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Vehicle Status - Field sentry_mode - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4209649045 - Field 3836474823 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Sentry Mode Available</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Sendingarstilling tiltæk</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Vehicle Status - Field sentry_mode_available - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4209649045 - Field 1732152299 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Service Mode</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Þjónustustilling</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Vehicle Status - Field service_mode - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4209649045 - Field 3699320232 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Service Mode Plus</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Þjónustustilling plús</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Vehicle Status - Field service_mode_plus - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4209649045 - Field 49507459 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Software Update</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Uppfærsla hugbúnaðar</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Vehicle Status - Field software_update - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4209649045 - Field 3428372075 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Speed Limit Mode</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Hámarksstilling hámarks</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Vehicle Status - Field speed_limit_mode - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4209649045 - Field 3354178634 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Timestamp</source>
+          <target state="needs-review-translation" state-qualifier="x-mt-cache">Tímastimpill</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Vehicle Status - Field timestamp - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4209649045 - Field 15692702 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>TPMS Hard Warning FL</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">FL fyrir TPMS-harða viðvörun</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Vehicle Status - Field tpms_hard_warning_fl - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4209649045 - Field 2904297216 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>TPMS Hard Warning FR</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">FR-viðvörun í TPMS</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Vehicle Status - Field tpms_hard_warning_fr - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4209649045 - Field 248032138 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>TPMS Hard Warning RL</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Vefslóð harðrar viðvörunar fyrir TPMS</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Vehicle Status - Field tpms_hard_warning_rl - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4209649045 - Field 716819732 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>TPMS Hard Warning RR</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">RFS harður viðvaranabúnaður TPMS</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Vehicle Status - Field tpms_hard_warning_rr - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4209649045 - Field 2417384508 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>TPMS Last Seen Pressure Time FL</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">TPMS síðast skoðað þrýstitíma FL</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Vehicle Status - Field tpms_last_seen_pressure_time_fl - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4209649045 - Field 335385634 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>TPMS Last Seen Pressure Time FR</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">TPMS síðast skoðað þrýstitíma FR</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Vehicle Status - Field tpms_last_seen_pressure_time_fr - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4209649045 - Field 491846120 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>TPMS Last Seen Pressure Time RL</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">TPMS síðast skoðað RL þrýstitíma</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Vehicle Status - Field tpms_last_seen_pressure_time_rl - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4209649045 - Field 2442875446 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>TPMS Last Seen Pressure Time RR</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">TPMS síðast skoðað R Þrýstitíma</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Vehicle Status - Field tpms_last_seen_pressure_time_rr - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4209649045 - Field 916008527 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>TPMS Pressure FL</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">TPMS-þrýstifl</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Vehicle Status - Field tpms_pressure_fl - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4209649045 - Field 3935582589 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>TPMS Pressure FR</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">TPMS-þrýstijafnanir</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Vehicle Status - Field tpms_pressure_fr - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4209649045 - Field 2748755587 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>TPMS Pressure RL</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">TPMS-þrýstislóð</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Vehicle Status - Field tpms_pressure_rl - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4209649045 - Field 3893179273 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>TPMS Pressure RR</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">TPMS-þrýstijafnari</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Vehicle Status - Field tpms_pressure_rr - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4209649045 - Field 261990834 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>TPMS RCP Front Value</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">TPMS RCP framvirði</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Vehicle Status - Field tpms_rcp_front_value - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4209649045 - Field 3461947429 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>TPMS RCP Rear Value</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">TPMS RCP endurtekningargildi</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Vehicle Status - Field tpms_rcp_rear_value - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4209649045 - Field 4013849701 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>TPMS Soft Warning FL</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">FL með TPMS-mýkingarviðvörun</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Vehicle Status - Field tpms_soft_warning_fl - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4209649045 - Field 3676031655 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>TPMS Soft Warning FR</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">FR-mýkingarviðvörun TPMS</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Vehicle Status - Field tpms_soft_warning_fr - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4209649045 - Field 23224817 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>TPMS Soft Warning RL</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Vefslóð mýkingarviðvörunar í TPMS</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Vehicle Status - Field tpms_soft_warning_rl - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4209649045 - Field 3718434971 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>TPMS Soft Warning RR</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">R VKS -mýkingarviðvörun</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Vehicle Status - Field tpms_soft_warning_rr - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4209649045 - Field 4255822122 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Valet Mode</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Valet-stilling</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Vehicle Status - Field valet_mode - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4209649045 - Field 1056262306 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Valet Pin Needed</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Standandi festing nauðsynleg</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Vehicle Status - Field valet_pin_needed - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4209649045 - Field 659300476 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Vehicle Name</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Heiti ökutækis</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Vehicle Status - Field vehicle_name - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4209649045 - Field 4257204203 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Webcam Available</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Vefmynda tiltækt</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tesla Vehicle Status - Field webcam_available - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 861187650 - NamedType 1519591242" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The specified variant type is not valid.</source>
+          <target state="translated" state-qualifier="exact-match">Tilgreind gerð afbrigðis er ógild.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Tesla Activity Log Mgt. - NamedType DataTypeNotValidErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3722643052 - NamedType 4711059" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Request</source>
+          <target state="translated" state-qualifier="exact-match">Beiðnir</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Tesla API Request Helper - NamedType RequestTok</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3722643052 - NamedType 419890781" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Response</source>
+          <target state="translated" state-qualifier="exact-match">Svörun</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Tesla API Request Helper - NamedType ResponseTok</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3722643052 - Method 121996279 - NamedType 4294338604" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Error code: %1</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Villukóði: %1</target>
+          <note from="Developer" annotates="general" priority="2">%1 = error code</note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Tesla API Request Helper - Method WebServiceError - NamedType ErrorCodeErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 4226117892 - NamedType 2081532769" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Importing rows #1########\\Please wait</source>
+          <target state="needs-review-l10n" state-qualifier="rejected-inaccurate">Línur fluttar inn #1#########\\Bíðið</target>
+          <note from="Developer" annotates="general" priority="2">%1 = no. of records imported</note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">The placeholder "#1#########" was found in target, but not in source.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Tesla Owner API Helper - NamedType LoadingMsg</note>
+        </trans-unit>
+        <trans-unit id="Page 1239891460 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Tesla Api Setup</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Uppsetning á Tesla API</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Tesla API Setup - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1239891460 - Control 1968500126 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Convert To KM field.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Tilgreinir gildi reitsins Umbreyta í KM.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Tesla API Setup - Control Convert To KM - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1239891460 - Control 3163706192 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the E-Mail field.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Tilgreinir gildið í reitnum Tölvupóstur.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Tesla API Setup - Control email - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1239891460 - Control 2316906957 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Full Name field.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Tilgreinir gildi reitsins Fullt nafn.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Tesla API Setup - Control full_name - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1239891460 - Control 454980611 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Log Activity field.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Tilgreinir gildi reitsins Skrá aðgerð.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Tesla API Setup - Control Log Activity - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1239891460 - Control 3498817585 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Profile Image Url field.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Tilgreinir gildi reitsins Vefslóð forstillingarmyndar.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Tesla API Setup - Control profile_image_url - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1239891460 - Control 877894020 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Tesla API Access Token field.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Tilgreinir gildið í reitnum Tesla API-aðgangsmerki.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Tesla API Setup - Control Tesla API Access Token - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1239891460 - Action 3511817141 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>View Vehicles</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Skoða ökutæki</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Tesla API Setup - Action Vehicles - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1239891460 - Action 3511817141 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Vehicles</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Ökutæki</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Tesla API Setup - Action Vehicles - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1239891460 - Action 3665429236 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>View API Activity Log</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Skoða API-aðgerðakladda</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Tesla API Setup - Action ViewActivity - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1239891460 - Action 3665429236 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Activity Log</source>
+          <target state="translated" state-qualifier="exact-match">Aðgerðakladdi</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Tesla API Setup - Action ViewActivity - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1239891460 - Action 3596915927 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Executes the Connect to Tesla API action.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Keyrir tengingu við API-aðgerðina.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Tesla API Setup - Action ConnectToApi - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1239891460 - Action 3596915927 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Connect to Tesla API</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Tengjast API tesla</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Tesla API Setup - Action ConnectToApi - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 802340543 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Tesla Charging Fees</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Teslagjöld</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Tesla Charging Fees - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 802340543 - Control 1808640270 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Currency Code field.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Tilgreinir gildi reitsins Gjaldmiðilskóði.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Tesla Charging Fees - Control currencyCode - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 802340543 - Control 588170490 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Fee Type field.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Tilgreinir gildið í reitnum Tegund þóknunar.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Tesla Charging Fees - Control feeType - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 802340543 - Control 568264562 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Is Paid field.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Tilgreinir gildið í reitnum Er Greitt.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Tesla Charging Fees - Control isPaid - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 802340543 - Control 2501286929 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Rate Base field.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Tilgreinir gildi reitsins Gengisgrunnur.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Tesla Charging Fees - Control rateBase - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 802340543 - Control 998393528 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Status field.</source>
+          <target state="needs-review-translation" state-qualifier="x-mt-cache">Tilgreinir gildið í reitnum Staða.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Tesla Charging Fees - Control status - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 802340543 - Control 2008009673 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Total Base field.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Tilgreinir gildi reitsins Heildargrunnur.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Tesla Charging Fees - Control totalBase - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 802340543 - Control 899894313 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Unit of Measure field.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Tilgreinir gildið í reitnum Mælieining.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Tesla Charging Fees - Control uom - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 802340543 - Control 3721978516 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Usage Base field.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Tilgreinir gildi reitsins Notkunargrunnur.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Tesla Charging Fees - Control usageBase - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 778089598 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Tesla Charging Invoices</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Gjaldf. gjaldf. reikningar</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Tesla Charging Invoices - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 778089598 - Control 233439864 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Content ID field.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Tilgreinir gildi reitsins Efniskenni.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Tesla Charging Invoices - Control contentId - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 778089598 - Control 4179522451 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the File Name field.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Tilgreinir gildi reitsins Skrárheiti.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Tesla Charging Invoices - Control fileName - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 778089598 - Control 71496203 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Invoice Type field.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Tilgreinir gildið í reitnum Tegund reiknings.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Tesla Charging Invoices - Control invoiceType - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 778089598 - Action 1633900327 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Create an incoming document from the selected invoice.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Stofna skjal á innleið úr völdum reikningi.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Tesla Charging Invoices - Action CreateIncomingDocument - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 778089598 - Action 1633900327 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Create Incoming Document</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Stofna skjal á innleið</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Tesla Charging Invoices - Action CreateIncomingDocument - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 778089598 - Action 593408208 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Download the selected invoice.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Hlaða niður völdum reikningi.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Tesla Charging Invoices - Action Download - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 778089598 - Action 593408208 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Download</source>
+          <target state="translated" state-qualifier="exact-match">Sækja</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Tesla Charging Invoices - Action Download - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2889933038 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Tesla Charging Session Card</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Tesla-hleðslulotuspjald</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Tesla Charging Session Card - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2889933038 - Control 1439501071 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Fees</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Gjöld</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Tesla Charging Session Card - Control Fees - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2889933038 - Control 2445482498 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>General</source>
+          <target state="translated" state-qualifier="exact-match">Almennt</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Tesla Charging Session Card - Control General - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2889933038 - Control 2194510243 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Charge Session Id field.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Tilgreinir gildið í reitnum Lotukenni gjalds.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Tesla Charging Session Card - Control chargeSessionId - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2889933038 - Control 575522557 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Charge Start Date Time field.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Tilgreinir gildið í reitnum Upphafsdags. gjalds.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Tesla Charging Session Card - Control chargeStartDateTime - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2889933038 - Control 644535959 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Charging Package field.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Tilgreinir gildið í reitnum Hleðslupakki.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Tesla Charging Session Card - Control chargingPackage - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2889933038 - Control 2715004511 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Country Code field.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Tilgreinir gildi reitsins Landsnúmer.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Tesla Charging Session Card - Control countryCode - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2889933038 - Control 2488421579 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Site Location Name field.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Tilgreinir gildi reitsins Heiti staðsetningar á staðnum.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Tesla Charging Session Card - Control siteLocationName - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2889933038 - Control 139119086 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Vehicle Make Type field.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Tilgreinir gildið í reitnum Tegund ökutækis.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Tesla Charging Session Card - Control vehicleMakeType - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2889933038 - Control 454014235 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the VIN field.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Tilgreinir gildi reitsins VIN.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Tesla Charging Session Card - Control vin - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2889933038 - Control 502423214 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Invoices</source>
+          <target state="translated" state-qualifier="exact-match">Reikningar</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Tesla Charging Session Card - Control Invoices - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3925817032 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Tesla Charging Session List</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Listi yfir teslahleðslulotu</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Tesla Charging Session List - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3925817032 - Control 3111983757 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Billing Type field.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Tilgreinir gildi reitsins Tegund reiknings.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Tesla Charging Session List - Control billingType - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3925817032 - Control 2194510243 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Charge Session Id field.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Tilgreinir gildið í reitnum Lotukenni gjalds.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Tesla Charging Session List - Control chargeSessionId - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3925817032 - Control 575522557 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Charge Start Date Time field.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Tilgreinir gildið í reitnum Upphafsdags. gjalds.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Tesla Charging Session List - Control chargeStartDateTime - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3925817032 - Control 644535959 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Charging Package field.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Tilgreinir gildið í reitnum Hleðslupakki.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Tesla Charging Session List - Control chargingPackage - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3925817032 - Control 2715004511 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Country Code field.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Tilgreinir gildi reitsins Landsnúmer.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Tesla Charging Session List - Control countryCode - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3925817032 - Control 965236864 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Program Type field.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Tilgreinir gildið í reitnum Tegund forrits.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Tesla Charging Session List - Control programType - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3925817032 - Control 2488421579 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Site Location Name field.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Tilgreinir gildi reitsins Heiti staðsetningar á staðnum.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Tesla Charging Session List - Control siteLocationName - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3925817032 - Control 139119086 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Vehicle Make Type field.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Tilgreinir gildið í reitnum Tegund ökutækis.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Tesla Charging Session List - Control vehicleMakeType - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3925817032 - Control 454014235 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the VIN field.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Tilgreinir gildi reitsins VIN.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Tesla Charging Session List - Control vin - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3925817032 - Action 169369755 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Download the charging sessions from Tesla.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Hlaða niður hleðslulotum frá Tesla.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Tesla Charging Session List - Action DownloadSessions - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3925817032 - Action 169369755 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Download Sessions</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Sækja lotur</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Tesla Charging Session List - Action DownloadSessions - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4141416783 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Tesla Property Factbox</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Upplýsingakassi Tesla-eiginleika</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Tesla Property Factbox - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4141416783 - Control 2961552353 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the ID of the Azure Active Directory application that will be used to connect to Exchange.</source>
+          <target state="translated" state-qualifier="exact-match">Tilgreinir auðkenni Azure Active Directory-forritsins sem verður notað til að tengjast við Exchange.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Tesla Property Factbox - Control Name - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 4141416783 - Control 1131619133 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the GetValue() field.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Tilgreinir gildið í reitnum GetValue().</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Tesla Property Factbox - Control Value - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2346140661 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Tesla Vehicle Card</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Tesla-ökutæki kort</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Tesla Vehicle Card - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2346140661 - Control 2445482498 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>General</source>
+          <target state="translated" state-qualifier="exact-match">Almennt</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Tesla Vehicle Card - Control General - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2346140661 - Control 1626378269 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Access Type field.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Tilgreinir gildið í reitnum Aðgangsgerð.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Tesla Vehicle Card - Control access_type - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2346140661 - Control 2715175111 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the API Version field.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Tilgreinir gildi reitsins API-útgáfa.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Tesla Vehicle Card - Control api_version - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2346140661 - Control 1864738876 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Calendar Enabled field.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Tilgreinir gildið í reitnum "Dagatal virkt".</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Tesla Vehicle Card - Control calendar_enabled - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2346140661 - Control 3279212590 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Display Name field.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Tilgreinir gildi reitsins Birtingarheiti.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Tesla Vehicle Card - Control display_name - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2346140661 - Control 2686962215 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the ID field.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Tilgreinir gildi reitsins Kenni.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Tesla Vehicle Card - Control id - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2346140661 - Control 1636458359 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the In Service field.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Tilgreinir gildið í reitnum Í þjónustu.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Tesla Vehicle Card - Control in_service - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2346140661 - Control 1405163793 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the State field.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Tilgreinir gildið í reitnum "Staða".</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Tesla Vehicle Card - Control state - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2346140661 - Control 454014235 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the VIN field.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Tilgreinir gildi reitsins VIN.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Tesla Vehicle Card - Control vin - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2346140661 - Control 513339096 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Status</source>
+          <target state="translated" state-qualifier="exact-match">Staða</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Tesla Vehicle Card - Control Status - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2346140661 - Control 4248179527 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Car Version field.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Tilgreinir gildið í reitnum Bílaútgáfa.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Tesla Vehicle Card - Control car_version - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2346140661 - Control 4248179527 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Car Version</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Bílaútgáfa</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Tesla Vehicle Card - Control car_version - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2346140661 - Control 1020320099 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Dashcam State field.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Tilgreinir gildið í reitnum Dashcam State.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Tesla Vehicle Card - Control dashcam_state - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2346140661 - Control 1020320099 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Dashcam State</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Dashcam-ríki</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Tesla Vehicle Card - Control dashcam_state - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2346140661 - Control 1997149118 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Locked field.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Tilgreinir gildi reitsins Læst.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Tesla Vehicle Card - Control locked - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2346140661 - Control 1997149118 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Locked</source>
+          <target state="translated" state-qualifier="exact-match">Læst</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Tesla Vehicle Card - Control locked - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2346140661 - Control 127964193 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Odometer field.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Tilgreinir gildi reitsins Odometer.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Tesla Vehicle Card - Control odometer - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2346140661 - Control 127964193 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Odometer</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Odometer</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Tesla Vehicle Card - Control odometer - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2346140661 - Control 3604454325 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Sentry Mode field.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Tilgreinir gildi reitsins Sendingarstilling.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Tesla Vehicle Card - Control sentry_mode - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2346140661 - Control 3604454325 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Sentry Mode</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Sendingarstilling</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Tesla Vehicle Card - Control sentry_mode - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2346140661 - Control 4013849701 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Tire Pressure Monitoring System Soft Warning Front Left field.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Tilgreinir gildið í reitnum "Dekkjaþrýstikerfisvöktun frá vinstri".</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Tesla Vehicle Card - Control tpms_soft_warning_fl - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2346140661 - Control 4013849701 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>TPMS Soft Warning FL</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">FL með TPMS-mýkingarviðvörun</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Tesla Vehicle Card - Control tpms_soft_warning_fl - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2346140661 - Control 3676031655 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Tire Pressure Monitoring System Soft Warning Front Right field.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Tilgreinir gildið í reitnum "Dekkjaþrýstikerfisvöktun frá mýkingarvöktun framan".</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Tesla Vehicle Card - Control tpms_soft_warning_fr - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2346140661 - Control 3676031655 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>TPMS Soft Warning FR</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">FR-mýkingarviðvörun TPMS</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Tesla Vehicle Card - Control tpms_soft_warning_fr - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2346140661 - Control 23224817 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Tire Pressure Monitoring System Soft Warning Rear Left field.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Tilgreinir gildið í reitnum "Þrýstijafnanir vöktunarkerfis mýkingarvöktunar".</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Tesla Vehicle Card - Control tpms_soft_warning_rl - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2346140661 - Control 23224817 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>TPMS Soft Warning RL</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Vefslóð mýkingarviðvörunar í TPMS</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Tesla Vehicle Card - Control tpms_soft_warning_rl - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2346140661 - Control 3718434971 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Tire Pressure Monitoring System Soft Warning Rear Right field.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Tilgreinir gildið í reitnum "Þrýstijafnanir vöktunarkerfis mýkingarvöktunar".</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Tesla Vehicle Card - Control tpms_soft_warning_rr - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2346140661 - Control 3718434971 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>TPMS Soft Warning RR</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">R VKS -mýkingarviðvörun</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Tesla Vehicle Card - Control tpms_soft_warning_rr - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2346140661 - Control 4255822122 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Valet Mode field.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Tilgreinir gildi reitsins Valet-stilling.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Tesla Vehicle Card - Control valet_mode - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2346140661 - Control 4255822122 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Valet Mode</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Valet-stilling</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Tesla Vehicle Card - Control valet_mode - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2346140661 - Control 2305248559 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Option Codes</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Valkostakóðar</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Tesla Vehicle Card - Control OptionCodes - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2346140661 - Action 4138227190 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>View charging Sessions for the vehicle.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Skoða hleðslulotur fyrir ökutækið.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Tesla Vehicle Card - Action ChargingSessions - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2346140661 - Action 4138227190 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Charging Sessions</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Hleðslulotur</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Tesla Vehicle Card - Action ChargingSessions - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2346140661 - Action 563719171 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Honk the horn.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Honk á hornið.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Tesla Vehicle Card - Action HonkHorn - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2346140661 - Action 563719171 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Honk Horn</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Honk-horn</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Tesla Vehicle Card - Action HonkHorn - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2346140661 - Action 2144283875 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Refresh the vehicle status.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Endurnýja stöðu ökutækisins.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Tesla Vehicle Card - Action RefreshStatus - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2346140661 - Action 2144283875 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Refresh Status</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Endurnýja stöðu</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Tesla Vehicle Card - Action RefreshStatus - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2346140661 - Action 112428567 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Wake Up the vehicle.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Vaknaðu farartækið.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Tesla Vehicle Card - Action WakeUp - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2346140661 - Action 112428567 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Wake Up</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Vakna</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Tesla Vehicle Card - Action WakeUp - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2393408287 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Tesla Vehicle List</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Listi yfir ökutæki í Tesla</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Tesla Vehicle List - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2393408287 - Control 3279212590 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Display Name field.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Tilgreinir gildi reitsins Birtingarheiti.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Tesla Vehicle List - Control display_name - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2393408287 - Control 2686962215 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the ID field.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Tilgreinir gildi reitsins Kenni.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Tesla Vehicle List - Control id - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2393408287 - Control 1636458359 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the In Service field.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Tilgreinir gildið í reitnum Í þjónustu.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Tesla Vehicle List - Control in_service - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2393408287 - Control 1405163793 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the State field.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Tilgreinir gildið í reitnum "Staða".</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Tesla Vehicle List - Control state - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2393408287 - Control 454014235 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the VIN field.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Tilgreinir gildi reitsins VIN.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Tesla Vehicle List - Control vin - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2393408287 - Action 112428567 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Wake Up the selected vehicles.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Vakna valda ökutæki.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Tesla Vehicle List - Action WakeUp - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2393408287 - Action 112428567 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Wake Up</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Vakna</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Tesla Vehicle List - Action WakeUp - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PermissionSet 2736975808 - Property 2879900210" maxwidth="30" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Tesla API Full</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">API tesla fullt</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">PermissionSet Tesla API Full - Property Caption</note>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
