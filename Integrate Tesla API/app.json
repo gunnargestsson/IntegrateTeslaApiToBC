@@ -2,7 +2,7 @@
   "id": "17328e94-bf39-4b81-9bb4-f9631ce6d29b",
   "name": "Integrate Tesla API",
   "publisher": "Kappi ehf.",
-  "version": "1.1.0.0",
+  "version": "1.2.0.0",
   "brief": "",
   "description": "",
   "privacyStatement": "",
@@ -25,5 +25,8 @@
     "allowDownloadingSource": false,
     "includeSourceInSymbolFile": false
   },
-  "features": ["NoImplicitWith","TranslationFile"]
+  "features": [
+    "NoImplicitWith",
+    "TranslationFile"
+  ]
 }
