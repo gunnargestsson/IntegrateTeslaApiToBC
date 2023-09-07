@@ -7,42 +7,34 @@ table 60200 "Tesla API Setup"
         field(1; "Primary Key"; Code[10])
         {
             Caption = 'Primary Key';
-            DataClassification = ToBeClassified;
         }
         field(2; "Tesla API Access Token"; Text[2048])
         {
             Caption = 'Tesla API Access Token';
-            DataClassification = ToBeClassified;
         }
         field(3; "Tesla API Refresh Token"; Text[2048])
         {
             Caption = 'Tesla API Refresh Token';
-            DataClassification = ToBeClassified;
         }
         field(4; email; Text[80])
         {
             Caption = 'E-Mail';
-            DataClassification = ToBeClassified;
         }
         field(5; full_name; Text[100])
         {
             Caption = 'Full Name';
-            DataClassification = ToBeClassified;
         }
         field(6; profile_image_url; Text[250])
         {
             Caption = 'Profile Image Url';
-            DataClassification = ToBeClassified;
         }
         field(7; "Log Activity"; Boolean)
         {
             Caption = 'Log Activity';
-            DataClassification = ToBeClassified;
         }
         field(8; "Convert To KM"; Boolean)
         {
             Caption = 'Convert To KM';
-            DataClassification = ToBeClassified;
         }
     }
 

@@ -8,7 +8,8 @@ page 60201 "Tesla Vehicle Card"
     PageType = Card;
     SaveValues = false;
     SourceTable = "Tesla Vehicle";
-    ;
+    ApplicationArea = All;
+    UsageCategory = None;
 
     layout
     {

@@ -28,5 +28,6 @@
   "features": [
     "NoImplicitWith",
     "TranslationFile"
-  ]
+  ],
+  "suppressWarnings": ["AA0072"]
 }

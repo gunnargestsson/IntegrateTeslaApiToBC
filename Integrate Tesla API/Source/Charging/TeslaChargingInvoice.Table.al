@@ -105,11 +105,6 @@ table 60208 "Tesla Charging Invoice"
     end;
 
     [IntegrationEvent(false, false)]
-    local procedure OnBeforeAddInvoiceToIncomingDocument(var Rec: Record "Tesla Charging Invoice"; var IsHandled: Boolean)
-    begin
-    end;
-
-    [IntegrationEvent(false, false)]
     local procedure OnAfterCreateIncomingDocumentBeforeOpeningCardPage(Rec: Record "Tesla Charging Invoice"; var IncomingDocument: Record "Incoming Document"; var IsHandled: Boolean)
     begin
     end;
@@ -120,17 +115,22 @@ table 60208 "Tesla Charging Invoice"
     end;
 
     [IntegrationEvent(false, false)]
+    local procedure OnBeforeAddInvoiceToIncomingDocument(var Rec: Record "Tesla Charging Invoice"; var IsHandled: Boolean)
+    begin
+    end;
+
+    [IntegrationEvent(false, false)]
     local procedure OnBeforeDownloadInvoicePDF(var Rec: Record "Tesla Charging Invoice"; var TempBlob: Codeunit "Temp Blob"; var Success: Boolean; var IsHandled: Boolean)
     begin
     end;
 
     [IntegrationEvent(false, false)]
-    local procedure OnBeforeGetInvoiceDownloadUrl(var Rec: Record "Tesla Charging Invoice"; var Url: Text; var IsHandled: Boolean)
+    local procedure OnBeforeDownloadInvoicePDFFromBC(var Rec: Record "Tesla Charging Invoice"; var IsHandled: Boolean)
     begin
     end;
 
     [IntegrationEvent(false, false)]
-    local procedure OnBeforeDownloadInvoicePDFFromBC(var Rec: Record "Tesla Charging Invoice"; var IsHandled: Boolean)
+    local procedure OnBeforeGetInvoiceDownloadUrl(var Rec: Record "Tesla Charging Invoice"; var Url: Text; var IsHandled: Boolean)
     begin
     end;
 }

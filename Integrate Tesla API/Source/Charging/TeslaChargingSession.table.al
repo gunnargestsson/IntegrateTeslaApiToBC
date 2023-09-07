@@ -147,7 +147,7 @@ table 60209 "Tesla Charging Session"
         Request: HttpRequestMessage;
         Response: HttpResponseMessage;
         ResponseJson: JsonToken;
-        ImportInvoicesTok: Label 'Importing charging sessions for %1';
+        ImportInvoicesTok: Label 'Importing charging sessions for %1', Comment = '%1 = Vehicle Name';
     begin
         OnBeforeGetChargingSessionsForVehicle(Rec, Vehicle, IsHandled);
         if IsHandled then
@@ -242,16 +242,16 @@ table 60209 "Tesla Charging Session"
         OnAfterGetChargingHistoryV2Request(Rec, PageNumber, Request);
     end;
 
-    local procedure GetChargingHistoryV2Url(vin: Text) Url: Text
+    local procedure GetChargingHistoryV2Url(VehicleVIN: Text) Url: Text
     var
         IsHandled: Boolean;
         UrlTok: Label 'https://akamai-apigateway-charging-ownership.tesla.com/graphql?deviceLanguage=en&deviceCountry=US&ttpLocale=en_US&vin=%1&operationName=getChargingHistoryV2 ', Locked = true;
     begin
-        OnBeforeGetChargingHistoryV2Url(Rec, vin, Url, IsHandled);
+        OnBeforeGetChargingHistoryV2Url(Rec, VehicleVIN, Url, IsHandled);
         if IsHandled then
             exit;
 
-        exit(StrSubstNo(UrlTok, vin));
+        exit(StrSubstNo(UrlTok, VehicleVIN));
     end;
 
     [IntegrationEvent(false, false)]
@@ -285,7 +285,7 @@ table 60209 "Tesla Charging Session"
     end;
 
     [IntegrationEvent(false, false)]
-    local procedure OnBeforeGetChargingHistoryV2Url(var Rec: Record "Tesla Charging Session"; vin: Text; var Url: Text; var IsHandled: Boolean)
+    local procedure OnBeforeGetChargingHistoryV2Url(var Rec: Record "Tesla Charging Session"; VehicleVIN: Text; var Url: Text; var IsHandled: Boolean)
     begin
     end;
 

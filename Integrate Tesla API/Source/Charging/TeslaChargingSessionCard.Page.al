@@ -1,10 +1,12 @@
 page 60206 "Tesla Charging Session Card"
 {
+    ApplicationArea = All;
     Caption = 'Tesla Charging Session Card';
     DeleteAllowed = false;
     InsertAllowed = false;
     PageType = Card;
     SourceTable = "Tesla Charging Session";
+    UsageCategory = none;
 
     layout
     {

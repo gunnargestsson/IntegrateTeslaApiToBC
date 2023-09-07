@@ -18,7 +18,7 @@ codeunit 60200 "Tesla Owner API Helper"
 
     internal procedure DownloadWithFlowControl(Url: Text; QueryFilter: Text; RecVariant: Variant; HideDialog: Boolean)
     var
-        TempFlowControl: Record "Tesla API Flow Control";
+        TempFlowControl: Record "Tesla API Flow Control" temporary;
         ResponseJson: JsonToken;
     begin
         if not HideDialog then

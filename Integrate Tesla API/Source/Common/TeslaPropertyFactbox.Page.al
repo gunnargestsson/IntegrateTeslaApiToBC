@@ -17,9 +17,10 @@ page 60203 "Tesla Property Factbox"
                     ApplicationArea = All;
                     ToolTip = 'Specifies the ID of the Azure Active Directory application that will be used to connect to Exchange.';
                 }
-                field("Value"; Rec.GetValue())
+                field(PropertyValueField; Rec.GetValue())
                 {
                     ApplicationArea = All;
+                    Caption = 'Value';
                     ToolTip = 'Specifies the value of the GetValue() field.';
                     Visible = ShowValue;
                 }

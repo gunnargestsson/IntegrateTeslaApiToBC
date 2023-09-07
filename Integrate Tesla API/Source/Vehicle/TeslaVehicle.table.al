@@ -144,7 +144,7 @@ table 60201 "Tesla Vehicle"
         InStr.ReadText(OptionCodes);
         OptionCodeList := OptionCodes.Split(',');
         foreach OptionCode in OptionCodeList do
-            TempNameValueBuffer.AddNewEntry(OptionCode, '');
+            TempNameValueBuffer.AddNewEntry(CopyStr(OptionCode, 1, MaxStrLen(TempNameValueBuffer.Name)), '');
     end;
 
     internal procedure WakeUp()

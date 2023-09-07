@@ -203,11 +203,6 @@ table 60203 "Tesla Vehicle Status"
             Caption = 'Speed Limit Mode';
             DataClassification = SystemMetadata;
         }
-        field(40; timestamp; BigInteger)
-        {
-            Caption = 'Timestamp';
-            DataClassification = SystemMetadata;
-        }
         field(41; tpms_hard_warning_fl; Boolean)
         {
             Caption = 'TPMS Hard Warning FL';
@@ -363,7 +358,6 @@ table 60203 "Tesla Vehicle Status"
 
     internal procedure LockDoors(Vehicle: Record "Tesla Vehicle")
     var
-        Setup: Record "Tesla API Setup";
         CommandResult: Record "Tesla Command Result";
         ApiHelper: Codeunit "Tesla API Request Helper";
         Request: HttpRequestMessage;
@@ -381,7 +375,6 @@ table 60203 "Tesla Vehicle Status"
 
     internal procedure UnlockDoors(Vehicle: Record "Tesla Vehicle")
     var
-        Setup: Record "Tesla API Setup";
         CommandResult: Record "Tesla Command Result";
         ApiHelper: Codeunit "Tesla API Request Helper";
         Request: HttpRequestMessage;
